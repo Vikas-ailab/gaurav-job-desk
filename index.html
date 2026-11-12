@@ -13,6 +13,7 @@ const PROFILE={name:"Gaurav Rathore",email:"gauravrathore01@gmail.com",phone:"+9
 const KEY=["vicidial","voip","telephony","softswitch","ccaas","asterisk","freeswitch","sip","dialer","vici","voice","implementation","contact center","contact centre","technical operations"];
 let jobs=JSON.parse(localStorage.getItem("gj_jobs")||"[]"),tracker=JSON.parse(localStorage.getItem("gj_tracker")||"[]"),page="dashboard";
 const save=()=>{localStorage.setItem("gj_jobs",JSON.stringify(jobs));localStorage.setItem("gj_tracker",JSON.stringify(tracker))};
+window.__gjSetCloudData=(d)=>{jobs=d.jobs||[];tracker=d.tracker||[];localStorage.setItem("gj_jobs",JSON.stringify(jobs));localStorage.setItem("gj_tracker",JSON.stringify(tracker));render()};
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 function score(j){let text=(j.title+" "+j.company+" "+j.description+" "+j.skills).toLowerCase(),hits=PROFILE.skills.filter(s=>text.includes(s.toLowerCase())).length,role=KEY.some(k=>text.includes(k))?1:0,sen=/lead|manager|head|senior|specialist|architect/i.test(j.title)?1:.5,loc=/bengaluru|bangalore/i.test(j.location)?1:(/remote/i.test(j.location)&&/india/i.test(j.location)?1:0);let raw=Math.min(30,hits/Math.max(5,PROFILE.skills.length)*180)+20*(role?1:.25)+15*sen+15*(role?1:0)+10*loc+10*(/team|lead|manage|operations/i.test(text)?1:.3);return Math.round(raw)}
 function fitGate(j){let t=(j.title+" "+j.description+" "+j.skills).toLowerCase();return KEY.some(k=>t.includes(k))}
