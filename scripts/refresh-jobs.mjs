@@ -11,7 +11,7 @@ const allowedLocation = job => {
   const location = (job.location || "").toLowerCase();
   const remote = !!job.remote || /remote/i.test((job.location || "") + " " + (job.workMode || ""));
   if (/bengaluru|bangalore/.test(location)) return true;
-  return remote && /india|worldwide|anywhere|global/i.test(location + " " + (job.description || ""));
+  return remote && /india|worldwide|anywhere|global/i.test(location);
 };
 const relevant = job => KEYS.some(word => ((job.title || "") + " " + (job.description || "") + " " + (job.tags || []).join(" ")).toLowerCase().includes(word));
 const assess = job => {
@@ -27,8 +27,10 @@ const assess = job => {
   const domain = Math.min(15, relevantWords.length * 4);
   const location = 10;
   const leadershipScore = leadership ? 10 : 4;
-  const missing = MUST.filter(skill => !text.includes(skill.toLowerCase()));
-  const mustHavePass = (MUST.length-missing.length)/MUST.length >= 0.7;
+  const required = MUST.filter(skill => text.includes(skill.toLowerCase()));
+  const candidateSkills = (SKILLS.join(" ") + " CCaaS softswitch").toLowerCase();
+  const missing = required.filter(skill => !candidateSkills.includes(skill.toLowerCase()));
+  const mustHavePass = required.length ? ((required.length-missing.length)/required.length >= 0.7) : null;
   const score = technical + experience + seniority + domain + location + leadershipScore;
   return {fitScore:Math.min(100,Math.round(score)),scoreBreakdown:{technical,experience,seniority,domain,location,leadership:leadershipScore},matchedSkills:matched,missingSkills:missing,mustHavePass};
 };
@@ -42,6 +44,8 @@ const jobs = [], errors = [], checked = [];
 function add(job) {
   job.description = clean(job.description).slice(0,5000);
   if (!job.title || !job.company || !job.url || !String(job.url).startsWith("https://")) return;
+  if (!/lead|manager|senior|specialist|architect|implementation|operations|consultant/i.test(job.title)) return;
+  if (job.jobType && !/full.?time|permanent/i.test(job.jobType)) return;
   if (ageDays(job.posted)>30 || !allowedLocation(job) || !relevant(job)) return;
   const score = assess(job);
   jobs.push({...job,...score,id:job.id || hash(job.company+"|"+job.title+"|"+job.url),verified:true,verification:"Returned as a published listing by the source API; confirm the vacancy on the employer page",checkedAt:new Date().toISOString()});
@@ -52,7 +56,7 @@ for (const entry of config.greenhouse || []) {
   try {
     const data = await fetchJson("https://boards-api.greenhouse.io/v1/boards/"+encodeURIComponent(slug)+"/jobs?content=true");
     checked.push("Greenhouse:"+company);
-    for (const item of data.jobs || []) add({title:item.title,company,location:item.location?.name || "",workMode:/remote/i.test(item.location?.name || "")?"Remote":"Unspecified",remote:/remote/i.test(item.location?.name || ""),posted:item.first_published || item.updated_at || "",url:item.absolute_url,description:item.content || "",source:"Greenhouse",tags:[]});
+    for (const item of data.jobs || []) add({title:item.title,company,location:item.location?.name || "",workMode:/remote/i.test(item.location?.name || "")?"Remote":"Unspecified",remote:/remote/i.test(item.location?.name || ""),posted:item.first_published || item.updated_at || "",url:item.absolute_url,description:item.content || "",source:"Greenhouse",jobType:item.employment_type || "",tags:[]});
   } catch(error) { errors.push("Greenhouse "+slug+": "+error.message); }
 }
 for (const entry of config.lever || []) {
@@ -61,7 +65,7 @@ for (const entry of config.lever || []) {
   try {
     const data = await fetchJson("https://api.lever.co/v0/postings/"+encodeURIComponent(slug)+"?mode=json");
     checked.push("Lever:"+company);
-    for (const item of data || []) add({title:item.text,company,location:item.categories?.location || "",workMode:item.workplaceType || "Unspecified",remote:/remote/i.test(item.workplaceType || "") || /remote/i.test(item.categories?.location || ""),posted:item.createdAt?new Date(item.createdAt).toISOString():"",url:item.hostedUrl,description:item.descriptionPlain || item.description || "",source:"Lever",tags:[]});
+    for (const item of data || []) add({title:item.text,company,location:item.categories?.location || "",workMode:item.workplaceType || "Unspecified",remote:/remote/i.test(item.workplaceType || "") || /remote/i.test(item.categories?.location || ""),posted:item.createdAt?new Date(item.createdAt).toISOString():"",url:item.hostedUrl,description:item.descriptionPlain || item.description || "",source:"Lever",jobType:item.categories?.commitment || "",tags:[]});
   } catch(error) { errors.push("Lever "+slug+": "+error.message); }
 }
 let metadata = {};
@@ -71,7 +75,7 @@ if (!metadata.arbeitnowFetchedAt || Date.now()-Date.parse(metadata.arbeitnowFetc
     for (let page=1;page<=3;page++) {
       const data=await fetchJson("https://www.arbeitnow.com/api/job-board-api?page="+page);
       checked.push("Arbeitnow");
-      for (const item of data.data || []) add({title:item.title,company:item.company_name,location:item.location || "",workMode:item.remote?"Remote":"On-site",remote:!!item.remote,posted:item.created_at || "",url:item.url,description:item.description || "",source:"Arbeitnow",tags:item.tags || []});
+      for (const item of data.data || []) add({title:item.title,company:item.company_name,location:item.location || "",workMode:item.remote?"Remote":"On-site",remote:!!item.remote,posted:item.created_at || "",url:item.url,description:item.description || "",source:"Arbeitnow",jobType:item.job_type || "",tags:item.tags || []});
       if (!data.links?.next) break;
     }
     metadata.arbeitnowFetchedAt=new Date().toISOString();
@@ -81,7 +85,7 @@ if (!metadata.remotiveFetchedAt || Date.now()-Date.parse(metadata.remotiveFetche
   try {
     const data=await fetchJson("https://remotive.com/api/remote-jobs?limit=500");
     checked.push("Remotive (6-hour cache)");
-    for (const item of data.jobs || []) add({id:"remotive-"+item.id,title:item.title,company:item.company_name,location:item.candidate_required_location || "Worldwide",workMode:"Remote",remote:true,posted:item.publication_date || "",url:item.url,description:item.description || "",source:"Remotive",tags:[item.category || "",item.job_type || ""],salary:item.salary || ""});
+    for (const item of data.jobs || []) add({id:"remotive-"+item.id,title:item.title,company:item.company_name,location:item.candidate_required_location || "Worldwide",workMode:"Remote",remote:true,posted:item.publication_date || "",url:item.url,description:item.description || "",source:"Remotive",jobType:item.job_type || "",tags:[item.category || "",item.job_type || ""],salary:item.salary || ""});
     metadata.remotiveFetchedAt=new Date().toISOString();
   } catch(error) { errors.push("Remotive: "+error.message); }
 } else checked.push("Remotive (6-hour cache)");
