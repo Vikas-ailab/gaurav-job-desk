@@ -17,11 +17,20 @@ const relevant = job => KEYS.some(word => ((job.title || "") + " " + (job.descri
 const assess = job => {
   const text = ((job.title || "") + " " + (job.description || "") + " " + (job.tags || []).join(" ")).toLowerCase();
   const matched = SKILLS.filter(skill => text.includes(skill.toLowerCase()));
-  const senior = /lead|manager|head|senior|specialist|architect/i.test(job.title || "");
-  const leadership = /lead|manager|team|operations/i.test(text);
-  const score = Math.min(30,matched.length*2.2) + (KEYS.some(word=>text.includes(word))?20:0) + (senior?15:7) + (matched.some(x=>/vicidial|sip|asterisk|freeswitch|softswitch|ccaas/i.test(x.toLowerCase()))?15:0) + 10 + (leadership?10:3);
+  const relevantWords = KEYS.filter(word => text.includes(word));
+  const senior = /lead|manager|head|senior|specialist|architect|implementation/i.test(job.title || "");
+  const leadership = /lead|manager|team|operations|mentor|supervis/i.test(text);
+  const years = text.match(/(\\d+)\\s*\\+?\\s*years?/);
+  const experience = years ? (Number(years[1]) <= 16 ? 20 : 8) : 14;
+  const technical = Math.min(30, matched.length * 3);
+  const seniority = senior ? 15 : 8;
+  const domain = Math.min(15, relevantWords.length * 4);
+  const location = 10;
+  const leadershipScore = leadership ? 10 : 4;
   const missing = MUST.filter(skill => !text.includes(skill.toLowerCase()));
-  return {fitScore:Math.min(100,Math.round(score)),matchedSkills:matched,missingSkills:missing,mustHavePass:(MUST.length-missing.length)/MUST.length>=0.7};
+  const mustHavePass = (MUST.length-missing.length)/MUST.length >= 0.7;
+  const score = technical + experience + seniority + domain + location + leadershipScore;
+  return {fitScore:Math.min(100,Math.round(score)),scoreBreakdown:{technical,experience,seniority,domain,location,leadership:leadershipScore},matchedSkills:matched,missingSkills:missing,mustHavePass};
 };
 async function fetchJson(url) {
   const response = await fetch(url,{headers:{"user-agent":"GauravJobDesk/1.0"}});
