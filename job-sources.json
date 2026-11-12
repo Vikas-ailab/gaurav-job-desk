@@ -1,1 +1,10 @@
-{"greenhouse":[],"lever":[],"notes":"Add verified public Greenhouse board slugs and Lever site slugs. Never guess identifiers."}
+{
+  "greenhouse": [],
+  "lever": [
+    {
+      "slug": "brillio-2",
+      "company": "Brillio"
+    }
+  ],
+  "notes": "Greenhouse/Lever board identifiers must be confirmed from each employer's official careers URL. Brillio's public Lever board was confirmed from its live careers posting. Add more verified board slugs as employers are identified."
+}
