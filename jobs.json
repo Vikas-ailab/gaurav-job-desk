@@ -1,11 +1,12 @@
 {
   "meta": {
-    "lastRefreshed": null,
-    "sourcesChecked": "Not yet run",
+    "lastRefreshed": "2026-11-12T15:57:56.113Z",
+    "sourcesChecked": "Lever:Brillio, Arbeitnow, Arbeitnow, Arbeitnow, Remotive (6-hour cache)",
     "sourceErrors": [],
     "listingCount": 0,
     "windowDays": 30,
-    "locationRule": "Bengaluru office/hybrid/remote; outside Bengaluru fully remote India or worldwide only"
+    "locationRule": "Bengaluru office/hybrid/remote; outside Bengaluru fully remote India or worldwide only",
+    "note": "Published by source API at collection time. Always open the original employer or job-board listing to confirm it remains accepting applications."
   },
   "jobs": []
 }
