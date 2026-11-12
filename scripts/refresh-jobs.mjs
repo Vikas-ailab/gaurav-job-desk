@@ -20,7 +20,7 @@ const assess = job => {
   const relevantWords = KEYS.filter(word => text.includes(word));
   const senior = /lead|manager|head|senior|specialist|architect|implementation/i.test(job.title || "");
   const leadership = /lead|manager|team|operations|mentor|supervis/i.test(text);
-  const years = text.match(/(\\d+)\\s*\\+?\\s*years?/);
+  const years = text.match(/(\d+)\s*\+?\s*years?/);
   const experience = years ? (Number(years[1]) <= 16 ? 20 : 8) : 14;
   const technical = Math.min(30, matched.length * 3);
   const seniority = senior ? 15 : 8;
