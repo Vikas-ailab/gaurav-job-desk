@@ -1,0 +1,1 @@
+{"name":"gaurav-job-desk","private":true,"type":"module","scripts":{"refresh":"node scripts/refresh-jobs.mjs"}}
