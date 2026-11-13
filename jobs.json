@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastRefreshed": "2026-11-13T18:38:25.385Z",
+    "lastRefreshed": "2026-11-13T18:39:57.484Z",
     "sourcesChecked": "Lever:Brillio, Exotel official careers (Trakstar), Arbeitnow (hourly cache), Remotive (6-hour cache)",
     "sourceErrors": [],
     "listingCount": 4,
@@ -38,7 +38,7 @@
       "id": "e32d664605301ddcedc4",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-13T18:38:24.369Z"
+      "checkedAt": "2026-11-13T18:39:56.516Z"
     },
     {
       "title": "Principal Engineer (Voice Platform)",
@@ -71,7 +71,7 @@
       "id": "ca65bbe3da5a608a6eb5",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-13T18:38:24.693Z"
+      "checkedAt": "2026-11-13T18:39:56.827Z"
     },
     {
       "title": "Principal Engineer (Voice4AI)",
@@ -104,7 +104,7 @@
       "id": "887051c3419b7d90d7fb",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-13T18:38:25.057Z"
+      "checkedAt": "2026-11-13T18:39:57.147Z"
     },
     {
       "title": "Senior Customer Success Manager-Africa & SAARC Cluster",
@@ -133,7 +133,7 @@
       "id": "915c15e2ae702fc14c14",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-13T18:38:25.372Z"
+      "checkedAt": "2026-11-13T18:39:57.474Z"
     }
   ]
 }
