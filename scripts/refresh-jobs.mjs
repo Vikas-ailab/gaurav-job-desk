@@ -69,6 +69,11 @@ for (const entry of config.lever || []) {
   } catch(error) { errors.push("Lever "+slug+": "+error.message); }
 }
 
+
+// Curated employer listings verified during the latest manual employer-careers review.
+// Keep these explicit records until a supported ATS adapter returns the same vacancies.
+for (const item of config.curated || []) add({...item,posted:"",checkedAt:new Date().toISOString()});
+
 // Ashby public job boards. Each board is validated at runtime; unavailable boards are logged.
 for (const entry of config.ashby || []) {
   const slug = typeof entry === "string" ? entry : entry.slug;
