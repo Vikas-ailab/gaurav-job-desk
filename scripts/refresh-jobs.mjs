@@ -2,7 +2,7 @@ import fs from "node:fs/promises";
 import crypto from "node:crypto";
 
 const SKILLS = ["VICIdial","ViciBox","ViciPhone WebRTC","SSL/TLS","WSS","STUN/NAT","MariaDB","GoAutoDial","VOS3000","ASTPP","MagnusBilling","FreeSWITCH","Asterisk","FreePBX","SIP trunking","SIP/RTP troubleshooting","G.711/G.729","iptables","Fail2ban","IP whitelisting","AWS EC2/VPC","Oracle Cloud","Linux VPS","CRM webhooks","REST API","predictive/progressive pacing","CLI rotation","ACD/IVR","SLA","AHT","occupancy","QA","RPC","WBRs","CRTC compliance"];
-const KEYS = ["vicidial","voip","telephony","softswitch","ccaas","asterisk","freeswitch","sip","dialer","contact center","contact centre","voice operations"];
+const KEYS = ["vicidial","voip","telephony","softswitch","ccaas","asterisk","freeswitch","sip","dialer","contact center","contact centre","voice operations","voice platform","voice bot","cloud communications","cpaaS","customer communication","customer engagement","technical account","implementation","enterprise customer success","contact-center","contact centre technology","unified communications","ucaas","rtp","webrtc"];
 const MUST = ["VICIdial","SIP","Asterisk","FreeSWITCH","CCaaS","softswitch","SBC"];
 const clean = value => String(value || "").replace(/<[^>]*>/g," ").replace(/&nbsp;/g," ").replace(/&amp;/g,"&").replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/\s+/g," ").trim();
 const hash = value => crypto.createHash("sha256").update(value).digest("hex").slice(0,20);
@@ -44,9 +44,9 @@ const jobs = [], errors = [], checked = [];
 function add(job) {
   job.description = clean(job.description).slice(0,5000);
   if (!job.title || !job.company || !job.url || !String(job.url).startsWith("https://")) return;
-  if (!/lead|manager|senior|specialist|architect|implementation|operations|consultant/i.test(job.title)) return;
+  if (!/lead|manager|senior|specialist|architect|implementation|operations|consultant|head|principal|director|technical account|customer success|project manager|voice platform|product head/i.test(job.title)) return;
   if (job.jobType && !/full.?time|permanent/i.test(job.jobType)) return;
-  if (ageDays(job.posted)>30 || !allowedLocation(job) || !relevant(job)) return;
+  if ((job.posted && ageDays(job.posted)>90) || !allowedLocation(job) || !relevant(job)) return;
   const score = assess(job);
   jobs.push({...job,...score,id:job.id || hash(job.company+"|"+job.title+"|"+job.url),verified:true,verification:"Returned as a published listing by the source API; confirm the vacancy on the employer page",checkedAt:new Date().toISOString()});
 }
@@ -68,6 +68,29 @@ for (const entry of config.lever || []) {
     for (const item of data || []) add({title:item.text,company,location:item.categories?.location || "",workMode:item.workplaceType || "Unspecified",remote:/remote/i.test(item.workplaceType || "") || /remote/i.test(item.categories?.location || ""),posted:item.createdAt?new Date(item.createdAt).toISOString():"",url:item.hostedUrl,description:item.descriptionPlain || item.description || "",source:"Lever",jobType:item.categories?.commitment || "",tags:[]});
   } catch(error) { errors.push("Lever "+slug+": "+error.message); }
 }
+// Exotel publishes its current vacancies on a public Trakstar careers page.
+// Read the live listing page and each linked job description so roles are not missed
+// simply because the employer does not expose a Greenhouse/Lever board API.
+try {
+  const html = await (await fetch("https://exotel.hire.trakstar.com/jobs", {headers:{"user-agent":"GauravJobDesk/1.0"}})).text();
+  const links = [...html.matchAll(/<a\\b[^>]*href=["'](\\/jobs\\/[a-z0-9]+\\/?)["'][^>]*>([\\s\\S]*?)<\\/a>/gi)];
+  const seen = new Set();
+  for (const match of links) {
+    const path = match[1];
+    if (seen.has(path) || path === "/jobs/") continue;
+    seen.add(path);
+    const title = clean(match[2]);
+    if (!title) continue;
+    try {
+      const detailUrl = "https://exotel.hire.trakstar.com" + path;
+      const detail = await (await fetch(detailUrl, {headers:{"user-agent":"GauravJobDesk/1.0"}})).text();
+      const plain = clean(detail.replace(/<script[\\s\\S]*?<\\/script>/gi," ").replace(/<style[\\s\\S]*?<\\/style>/gi," "));
+      const loc = (detail.match(/([A-Za-z ,/]+(?:Bengaluru|Bangalore|Gurugram|Gurgaon|Mumbai|Hyderabad|India)[A-Za-z ,/]*)\\s*\\|\\s*[^|]{2,60}\\s*\\|\\s*Full-time/i)||[])[1] || "";
+      add({title,company:"Exotel",location:loc || "Bengaluru, India",workMode:/remote/i.test(loc)?"Remote":"On-site/Hybrid",remote:/remote/i.test(loc),posted:"",url:detailUrl,description:plain,source:"Exotel Careers",jobType:"Full-time",tags:[]});
+    } catch(error) { errors.push("Exotel detail "+title+": "+error.message); }
+  }
+  checked.push("Exotel official careers (Trakstar)");
+} catch(error) { errors.push("Exotel careers: "+error.message); }
 let metadata = {};
 try { metadata = JSON.parse(await fs.readFile("jobs-meta.json","utf8")); } catch {}
 if (!metadata.arbeitnowFetchedAt || Date.now()-Date.parse(metadata.arbeitnowFetchedAt)>3600000) {
@@ -92,7 +115,7 @@ if (!metadata.remotiveFetchedAt || Date.now()-Date.parse(metadata.remotiveFetche
 const unique=new Map();
 for (const job of jobs) { const key=(job.company+"|"+job.title).toLowerCase(); if(!unique.has(key)) unique.set(key,job); }
 const output=[...unique.values()].sort((a,b)=>(b.posted || "").localeCompare(a.posted || "")).slice(0,300);
-const feed={meta:{lastRefreshed:new Date().toISOString(),sourcesChecked:checked.join(", ") || "No ATS boards configured",sourceErrors:errors,listingCount:output.length,windowDays:30,locationRule:"Bengaluru office/hybrid/remote; outside Bengaluru fully remote India or worldwide only",note:"Published by source API at collection time. Always open the original employer or job-board listing to confirm it remains accepting applications."},jobs:output};
+const feed={meta:{lastRefreshed:new Date().toISOString(),sourcesChecked:checked.join(", ") || "No ATS boards configured",sourceErrors:errors,listingCount:output.length,windowDays:90,locationRule:"Bengaluru office/hybrid/remote; outside Bengaluru fully remote India or worldwide only",note:"Published by source API at collection time. Always open the original employer or job-board listing to confirm it remains accepting applications."},jobs:output};
 await fs.writeFile("jobs.json",JSON.stringify(feed,null,2));
 metadata.lastRefreshed=feed.meta.lastRefreshed;
 metadata.lastErrors=errors;
