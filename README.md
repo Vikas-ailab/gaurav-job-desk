@@ -8,9 +8,9 @@ Mobile-first personal job discovery and application workspace for Gaurav Rathore
 - Location filter: Bengaluru office/hybrid/remote; outside Bengaluru remote India or worldwide only.
 - 30-day freshness filter, duplicate suppression, source link, matched skills and missing must-have flags.
 - GitHub Actions feed refresh schedule every 15 minutes. Remotive is deliberately cached for at least six hours because its public API advises no more than four requests per day.
-- Role-specific CV draft generator that reorders supplied skills and uses only profile facts; review before export.
+- Role-specific CV generator that prioritises skills from each vacancy and adapts the summary using candidate facts currently stored; downloads an HTML CV that can be printed to PDF. Review before use.
 - Optional Supabase email authentication and private workspace sync with row-level security.
-- Application approval only. This app never submits an application, sends a recruiter message or uploads a CV.
+- Application approval and employer-page handoff only. Employer form filling, CV upload and application submission are not yet automated; do not mark an application submitted without employer confirmation.
 
 ## Job feed setup
 1. Review `job-sources.json`. The Brillio Lever board slug is preconfigured from a live Brillio careers posting; add only other employer board slugs confirmed from official careers URLs.
