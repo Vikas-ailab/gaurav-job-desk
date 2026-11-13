@@ -1,12 +1,139 @@
 {
   "meta": {
-    "lastRefreshed": "2026-11-13T17:52:02.475Z",
+    "lastRefreshed": "2026-11-13T17:56:23.924Z",
     "sourcesChecked": "Lever:Brillio, Exotel official careers (Trakstar), Arbeitnow (hourly cache), Remotive (6-hour cache)",
     "sourceErrors": [],
-    "listingCount": 0,
+    "listingCount": 4,
     "windowDays": 90,
     "locationRule": "Bengaluru office/hybrid/remote; outside Bengaluru fully remote India or worldwide only",
     "note": "Published by source API at collection time. Always open the original employer or job-board listing to confirm it remains accepting applications."
   },
-  "jobs": []
+  "jobs": [
+    {
+      "title": "Head of Customer Success - India",
+      "company": "Exotel",
+      "location": "Bengaluru/Gurugram",
+      "workMode": "On-site/Hybrid",
+      "remote": false,
+      "posted": "",
+      "url": "https://exotel.hire.trakstar.com/jobs/fk0z8rm/",
+      "description": "Head of Customer Success - India at Exotel Techcom Pvt Ltd exotel.in Website Back to all openings See all the jobs at Exotel Techcom Pvt Ltd here: http://exotel.recruiterbox.com/jobs Head of Customer Success - India Bengaluru/Gurugram | Growth | Full-time Apply with Linkedin Apply with Indeed Apply About Exotel Exotel is one of Asia’s leading customer communication platforms, helping businesses build better customer experiences through cloud-based communication solutions. We bring together CPaaS, CCaaS, and Voice AI to help businesses manage customer conversations across voice and digital channels. Our platform powers billions of customer interactions globally , enabling enterprises to connect with their customers at scale, automate conversations, and deliver seamless experiences. With a strong presence across India, APAC, the Middle East, and Africa , Exotel works with thousands of businesses across industries. We are building the next generation of AI-powered customer communication, where intelligent voice and digital experiences become an integral part of how businesses engage with their customers. At Exotel, you’ll work in a fast-paced, high-ownership environment alongside teams across Product, Engineering, Sales, Marketing, and Customer Success, solving complex problems at scale and shaping the future of customer communication. Job Location: Gurugram/ Bengaluru About the Role You own retention and expansion of Exotel's domestic enterprise business — a large, revenue-critical share of our named accounts, already paying us in at least one SKU across CPaaS, CCaaS, and Voice AI / voice-bot streaming. The first job is to defend that base. These accounts are already running revenue-critical infrastructure on Exotel, and protecting and expanding that, before anything else, is what this role is accountable for. The second job is the whitespace inside this base. The average paying account today uses only a fraction of our full portfolio, which spans CPaaS, CCaaS, and Voice AI. Most of these customers are proof the product works — they just haven't been sold the rest of what we do. This role owns both: hold the base we've already won, and grow their footprint from there. This is not a support role and not a coordination role. You are the single named owner of Net Revenue Retention for enterprise India, and the frontline escalation point when anything in the customer's experience (delivery, support, billing, product, or platform) breaks. When a strategic account has a problem that spans multiple internal teams, you run it end-to-end until it's resolved, not until it's routed. What You Own 1. Retention & Expansion — the revenue mandate Own NRR and GRR for the full domestic enterprise book, reported and defended monthly against target. Build the account-level whitespace model that turns average SKU attach — currently ~1.5 products per paying account — into a prioritised, quota-bearing cross-sell funnel across CPaaS (voice, SMS/WhatsApp/RCS), CCaaS (ECC/Harmony), and Voice AI/voice-bot products, focused on the accounts we've already converted. Own account tiering and segmentation (strategic / growth / maintain) so QBR depth, executive coverage, and expansion effort are allocated by risk and headroom, not by who escalates loudest. Partner with Sales leadership on renewal forecasting and the handoff line between net-new logo acquisition and install-base expansion, so no account falls into the gap between the two. 2. Customer Governance & Executive Engagement Own the QBR program end-to-end: cadence, content standard, and executive attendance, Build and maintain an account health-score model (usage depth, support load, sentiment, commercial trajectory) that flags churn or expansion risk before it shows up in a renewal conversation. Act as the named executive sponsor for the top tier of strategic accounts. 3. Escalation Ownership & Cross-Functional Orchestration Be the single accountable owner of enterprise customer escalations — running point across Delivery, Support, Finance, Tech, and Product until resolution, with authority to pull the right people into a room. Define and enforce a severity framework and SLA for escalations, so \"pillar to post\" becomes a repeatable operating process with clear ownership at each stage, not a hero act each time. Build the structured feedback loop from escalations and expansion conversations into the product roadmap — this team sees where the product is costing revenue before anyone else in the company does. 4. Team Leadership Hire, structure, and lead the enterprise Customer Experience team (Account/Relationship Managers and CSMs) — define role charters, account/territory assignment, and career paths. Run the team's operating cadence: weekly pipeline and risk reviews, monthly business reviews, and a quarterly NRR readout to company leadership. How the role will be measured &lt;colgroup&gt;&lt;col style=\"width: 32.7391%;\" width=\"222\"&gt;&lt;col style=\"width: 57.3744%;\" width=\"848\"&gt;&l",
+      "source": "Exotel Careers",
+      "jobType": "Full-time",
+      "tags": [],
+      "fitScore": 60,
+      "scoreBreakdown": {
+        "technical": 3,
+        "experience": 14,
+        "seniority": 15,
+        "domain": 8,
+        "location": 10,
+        "leadership": 10
+      },
+      "matchedSkills": [
+        "SLA"
+      ],
+      "missingSkills": [],
+      "mustHavePass": true,
+      "id": "e32d664605301ddcedc4",
+      "verified": true,
+      "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
+      "checkedAt": "2026-11-13T17:56:23.042Z"
+    },
+    {
+      "title": "Principal Engineer (Voice Platform)",
+      "company": "Exotel",
+      "location": "Bengaluru",
+      "workMode": "On-site/Hybrid",
+      "remote": false,
+      "posted": "",
+      "url": "https://exotel.hire.trakstar.com/jobs/fk0znz6/",
+      "description": "Principal Engineer (Voice Platform) at Exotel Techcom Pvt Ltd exotel.in Website Back to all openings See all the jobs at Exotel Techcom Pvt Ltd here: http://exotel.recruiterbox.com/jobs Principal Engineer (Voice Platform) Bengaluru , Karnataka , India | Tech & Product | Full-time Apply with Linkedin Apply with Indeed Apply About us Exotel is the emerging market’s leading full-stack customer engagement platform and business-focused virtual telecom operator. Founded in 2011, our cloud-based product suite powers over 50 million daily engagements across voice, video, and messaging channels. Trusted by 6,000+ companies across 60+ countries—including India, Southeast Asia, the Middle East, and Africa—Exotel enables unified customer engagement for leading businesses such as Ola, Swiggy, Flipkart, GoJek, Byju’s, HDFC Bank, Zomato, and Urban Company. Our offerings include communication APIs, a modern omnichannel contact centre, and a conversational AI platform hosted on the cloud. We are a Series D company valued at $100 million with $60 million in ARR. What will you do? Influence the product roadmap as a technical leader Exploration and adoption of new technologies to improve system reliability and efficiency. Technical guidance and mentoring to the Project teams on architecture and design. Help enforce and/or tweak SLAs for existing deployments to improve efficiency. Build and improve, and enforce processes to improve efficiency. Build and guide the team for operational excellence. Stakeholder management Mentor junior engineers in the team. What do we look for? Must Haves 8+ years of experience in the VoIP domain. Bachelor's or Master's degree in computer science or equivalent. Solid knowledge of VoIP domain technologies, including SIP, SDP, RTP, RTCP. Solid knowledge of IP networking concepts, including L2/L3 routing, Subnets, VLANs,and NAT traversal. Solid knowledge of network impairments and their impact on call quality. Experience leading project teams to deliver critical software solutions. 6+ years of experience in building high-availability, scalable and fault-tolerant VoIP systems. 4+ years of experience in working with server-side VoIP applications like Asterisk, Kamailio or equivalent 3+ years of experience in working with a major cloud platform like AWS (preferred), GCP, or Azure. 2+ years of experience in the design and development of REST-based microservices. Experience in programming with one of Golang (preferred), Ruby, C/C++ Experience in scripting with shell and Python Experience with data stores such as MySQL, Postgres Good understanding of data structures, multi-threading and concurrency concepts. Proficiency in working in a Linux environment Experience working in Agile SDLC process Strong analytical, problem-solving and troubleshooting skills Excellent written and verbal communication skills Team player, flexible and able to work in a fast-paced environment A \"DevOps\" mindset. You own what you will develop. Good to Have Experience with custom development on Asterisk/Freeswitch/Kamailio/Opensips is a plus Experience with SIPp or any other SIP testing tools Experience with ISDN, WebRTC technologies Experience with Elastic Search queries and visualisation tools like Grafana, Kibana Experience with DevOps tools like Ansible, Jenkins, Terraform, Kubernetes, Git Experience with monitoring frameworks like Nagios, Prometheus Experience with developing Android, iOS-based VoIP clients Experience with Java, JavaScript languages Apply Apply with Linkedin Apply with Indeed Apply for this opening at ?apply=true Back to all openings See all the jobs at Exotel Techcom Pvt Ltd here: http://exotel.recruiterbox.com/jobs Fetching your Linkedin profile ... Application Form Apply with Linkedin Apply with Indeed First Name * Last Name Email * Phone * Resume * Current CTC * Expected CTC * Notice Period * What is your current location? * Describe your experience with VOIP and SIP Development? * Thanks for your time Apply for this opening Apply with Linkedin Apply with Indeed --> Share this opening with friends powered by Trakstar Hire",
+      "source": "Exotel Careers",
+      "jobType": "Full-time",
+      "tags": [],
+      "fitScore": 72,
+      "scoreBreakdown": {
+        "technical": 9,
+        "experience": 20,
+        "seniority": 8,
+        "domain": 15,
+        "location": 10,
+        "leadership": 10
+      },
+      "matchedSkills": [
+        "FreeSWITCH",
+        "Asterisk",
+        "SLA"
+      ],
+      "missingSkills": [],
+      "mustHavePass": true,
+      "id": "ca65bbe3da5a608a6eb5",
+      "verified": true,
+      "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
+      "checkedAt": "2026-11-13T17:56:23.348Z"
+    },
+    {
+      "title": "Principal Engineer (Voice4AI)",
+      "company": "Exotel",
+      "location": "Bengaluru",
+      "workMode": "On-site/Hybrid",
+      "remote": false,
+      "posted": "",
+      "url": "https://exotel.hire.trakstar.com/jobs/fk0pefg/",
+      "description": "Principal Engineer (Voice4AI) at Exotel Techcom Pvt Ltd exotel.in Website Back to all openings See all the jobs at Exotel Techcom Pvt Ltd here: http://exotel.recruiterbox.com/jobs Principal Engineer (Voice4AI) Bengaluru , Karnataka , India | Tech & Product | Full-time Apply with Linkedin Apply with Indeed Apply About us Exotel is the emerging market’s leading full-stack customer engagement platform and business-focused virtual telecom operator. Founded in 2011, our cloud-based product suite powers over 50 million daily engagements across voice, video, and messaging channels. Trusted by 6,000+ companies across 60+ countries—including India, Southeast Asia, the Middle East, and Africa—Exotel enables unified customer engagement for leading businesses such as Ola, Swiggy, Flipkart, GoJek, Byju’s, HDFC Bank, Zomato, and Urban Company. Our offerings include communication APIs, a modern omnichannel contact centre, and a conversational AI platform hosted on the cloud. We are a Series D company valued at $100 million with $60 million in ARR. What will you do? Influence the product roadmap as a technical leader Exploration and adoption of new technologies to improve system reliability and efficiency. Technical guidance and mentoring to the Project teams on architecture and design. Help enforce and/or tweak SLAs for existing deployments to improve efficiency. Build and improve, and enforce processes to improve efficiency. Build and guide the team for operational excellence. Stakeholder management Mentor junior engineers in the team. What do we look for? Must Haves 8+ years of experience in the VoIP domain. Bachelor's or Master's degree in computer science or equivalent. Solid knowledge of VoIP domain technologies, including SIP, SDP, RTP, RTCP. Solid knowledge of IP networking concepts, including L2/L3 routing, Subnets, VLANs,and NAT traversal. Solid knowledge of network impairments and their impact on call quality. Experience leading project teams to deliver critical software solutions. 6+ years of experience in building high-availability, scalable and fault-tolerant VoIP systems. 4+ years of experience in working with server-side VoIP applications like Asterisk, Kamailio or equivalent 3+ years of experience in working with a major cloud platform like AWS (preferred), GCP, or Azure. 2+ years of experience in the design and development of REST-based microservices. Experience in programming with one of Golang (preferred), Ruby, C/C++ Experience in scripting with shell and Python Experience with data stores such as MySQL, Postgres Good understanding of data structures, multi-threading and concurrency concepts. Proficiency in working in a Linux environment Experience working in Agile SDLC process Strong analytical, problem-solving and troubleshooting skills Excellent written and verbal communication skills Team player, flexible and able to work in a fast-paced environment A \"DevOps\" mindset. You own what you will develop. Good to Have Experience with custom development on Asterisk/Freeswitch/Kamailio/Opensips is a plus Experience with SIPp or any other SIP testing tools Experience with ISDN, WebRTC technologies Experience with Elastic Search queries and visualisation tools like Grafana, Kibana Experience with DevOps tools like Ansible, Jenkins, Terraform, Kubernetes, Git Experience with monitoring frameworks like Nagios, Prometheus Experience with developing Android, iOS-based VoIP clients Experience with Java, JavaScript languages Apply Apply with Linkedin Apply with Indeed Apply for this opening at ?apply=true Back to all openings See all the jobs at Exotel Techcom Pvt Ltd here: http://exotel.recruiterbox.com/jobs Fetching your Linkedin profile ... Application Form Apply with Linkedin Apply with Indeed First Name * Last Name Email * Phone * Resume * Current CTC * Expected CTC * Notice Period * Thanks for your time Apply for this opening Apply with Linkedin Apply with Indeed --> Share this opening with friends powered by Trakstar Hire",
+      "source": "Exotel Careers",
+      "jobType": "Full-time",
+      "tags": [],
+      "fitScore": 72,
+      "scoreBreakdown": {
+        "technical": 9,
+        "experience": 20,
+        "seniority": 8,
+        "domain": 15,
+        "location": 10,
+        "leadership": 10
+      },
+      "matchedSkills": [
+        "FreeSWITCH",
+        "Asterisk",
+        "SLA"
+      ],
+      "missingSkills": [],
+      "mustHavePass": true,
+      "id": "887051c3419b7d90d7fb",
+      "verified": true,
+      "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
+      "checkedAt": "2026-11-13T17:56:23.636Z"
+    },
+    {
+      "title": "Senior Customer Success Manager-Africa & SAARC Cluster",
+      "company": "Exotel",
+      "location": "Gurugram/Bengaluru",
+      "workMode": "On-site/Hybrid",
+      "remote": false,
+      "posted": "",
+      "url": "https://exotel.hire.trakstar.com/jobs/fk0zlan/",
+      "description": "Senior Customer Success Manager-Africa & SAARC Cluster at Exotel Techcom Pvt Ltd exotel.in Website Back to all openings See all the jobs at Exotel Techcom Pvt Ltd here: http://exotel.recruiterbox.com/jobs Senior Customer Success Manager-Africa & SAARC Cluster Gurugram/Bengaluru/Mumbai | Growth | Full-time Apply with Linkedin Apply with Indeed Apply About Us Exotel is the emerging market’s leading full-stack customer engagement platform and business-focused virtual telecom operator. Incorporated in 2011, Exotel’s cloud-based product suite powers 50 million daily engagements across voice, video and messaging channels. Exotel powers unified customer engagement to over 6000 companies in 60+ countries, including India, SE Asia, the Middle East, and Africa. Today, some of the fastest-growing companies in the emerging markets (Ola, Swiggy, Flipkart, GoJek, Byju’s, Urban Company, HDFC Bank, Zomato, Oyo, etc.) manage their customer engagement with Exotel’s suite of communication APIs, Ameyo’s omnichannel contact centre (merger), and Cogno AI‘s conversational AI platform (acquisition) over the cloud. They’re a $100 million Series D-funded company with $60 million in ARR. Job Location: Gurugram/Bengaluru/Mumbai About the Role As a Customer Success Manager at Exotel, you will play a pivotal role in ensuring the success and satisfaction of our customers, particularly within the International(Africa) cluster. Prior experience in a Presales/Solutioning role facing customers is preferable You will be responsible for driving retention revenue targets, identifying upsell/cross-sell opportunities, and fostering new logo sales. Additionally, you will collaborate closely with Account Directors to align with company goals and revenue objectives. This role demands a strategic mindset, strong technical acumen, and a deep understanding of customer needs in the communication technology sector. Key Responsibilities: Manage a portfolio of enterprise customers serving as their primary business point of contact with high-touch engagement throughout their CX journey Develop and execute a 2-in-a-box strategy with Account Directors to maximize revenue and gross profit targets. Understand customers’ business value drivers, success criteria, and KPIs to develop Customer Success Plans (actionable blueprints by which Exotel and its customers can achieve mutual success) Establish a regular cadence of Executive Business Reviews with the customer to track progress towards their stated business objectives Track and monitor adoption and facilitate renewal within assigned accounts. Put plans in place to avoid down sells, revenue erosion or non-renewal Cultivate relationships with large GSIs/BPOs, marketing automation companies, CRM companies, and other IT/ITES enterprises. Act as a pre-sales expert and Technical Account Manager, facilitating technical conversations and ensuring smooth onboarding processes. Collaborate with sales teams throughout the sales cycle, from deal introduction to closure, ensuring seamless delivery and customer satisfaction. Proactively identify potential business leads for further business opportunities to support account growth, upsell and expansion. Stay abreast of AI-backed solution strategies to align with Exotel's futuristic product roadmap. Lead by example in a startup-like environment, demonstrating initiative and leadership in driving customer success initiatives. Leverage prior experience in similar organizations and knowledge of CPaaS, CCaaS, and Conversational AI products to enhance customer experiences. Serve as a strategic CSM, balancing customer-facing responsibilities with strategic planning and execution. What do we look for? Bachelor's degree in a technology or a Business Administration related field. 3-7 years of experience in a technology-related field (preferably a SaaS industry), with a focus on customer success management and/or enterprise account management. Proven track record of managing and selling to large enterprise customers, preferably in the communication technology sector. Strong understanding of CPaaS, CCaaS, and Conversational AI products, with prior experience being a plus. Extremely strong customer-facing skills, including the ability to present to C-level and build relationships Leadership, interpersonal and communication profile that unifies, influences, and inspires cross-functional teams to meet the changing needs of customers Strategic mindset with the ability to identify and capitalise on business opportunities Demonstrated leadership abilities, with experience thriving in dynamic and fast-paced environments. Willingness to travel internationally as needed. Apply Apply with Linkedin Apply with Indeed Apply for this opening at ?apply=true Back to all openings See all the jobs at Exotel Techcom Pvt Ltd here: http://exotel.recruiterbox.com/jobs Fetching your Linkedin profile ... Application Form Apply with Linkedin Apply with Indeed First Name * Last Name Email * Phone * Resume * What ",
+      "source": "Exotel Careers",
+      "jobType": "Full-time",
+      "tags": [],
+      "fitScore": 70,
+      "scoreBreakdown": {
+        "technical": 0,
+        "experience": 20,
+        "seniority": 15,
+        "domain": 15,
+        "location": 10,
+        "leadership": 10
+      },
+      "matchedSkills": [],
+      "missingSkills": [],
+      "mustHavePass": true,
+      "id": "915c15e2ae702fc14c14",
+      "verified": true,
+      "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
+      "checkedAt": "2026-11-13T17:56:23.919Z"
+    }
+  ]
 }
