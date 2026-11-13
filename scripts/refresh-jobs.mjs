@@ -117,6 +117,23 @@ if (!metadata.remotiveFetchedAt || Date.now()-Date.parse(metadata.remotiveFetche
 const unique=new Map();
 for (const job of jobs) { const key=(job.company+"|"+job.title).toLowerCase(); if(!unique.has(key)) unique.set(key,job); }
 const output=[...unique.values()].sort((a,b)=>(b.posted || "").localeCompare(a.posted || "")).slice(0,300);
+// Keep an India-calendar-day history of unique vacancies seen across every scheduled refresh.
+const indiaDate = new Intl.DateTimeFormat("en-CA",{timeZone:"Asia/Kolkata",year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date());
+let history={schemaVersion:1,timezone:"Asia/Kolkata",days:{}};
+try { history=JSON.parse(await fs.readFile("jobs-history.json","utf8")); } catch {}
+history.days ||= {};
+const day=history.days[indiaDate] ||= {date:indiaDate,jobs:[]};
+const dayJobs=new Map((day.jobs||[]).map(job=>[String(job.id),job]));
+for (const job of output) {
+  const id=String(job.id || hash(job.company+"|"+job.title+"|"+job.url));
+  if (!dayJobs.has(id)) dayJobs.set(id,{id,title:job.title,company:job.company,url:job.url,location:job.location,firstSeenAt:new Date().toISOString()});
+}
+day.jobs=[...dayJobs.values()];
+day.uniqueAvailable=day.jobs.length;
+day.lastUpdatedAt=new Date().toISOString();
+// Keep a rolling two-year daily history to keep the public static data file bounded.
+for (const key of Object.keys(history.days).sort().slice(0,-730)) delete history.days[key];
+await fs.writeFile("jobs-history.json",JSON.stringify(history,null,2));
 const feed={meta:{lastRefreshed:new Date().toISOString(),sourcesChecked:checked.join(", ") || "No ATS boards configured",sourceErrors:errors,listingCount:output.length,windowDays:90,locationRule:"Bengaluru office/hybrid/remote; outside Bengaluru fully remote India or worldwide only",note:"Published by source API at collection time. Always open the original employer or job-board listing to confirm it remains accepting applications."},jobs:output};
 await fs.writeFile("jobs.json",JSON.stringify(feed,null,2));
 metadata.lastRefreshed=feed.meta.lastRefreshed;
