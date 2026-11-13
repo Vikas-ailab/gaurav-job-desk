@@ -6,7 +6,7 @@
       "company": "Brillio"
     }
   ],
-  "notes": "Automated public ATS boards: Brillio (Lever); Toku, Interface.ai and Sarvam (Ashby; board slugs to be validated by scheduled fetch). Exotel is collected from its official Trakstar careers page. Aggregator feeds are supplementary, not exhaustive.",
+  "notes": "Employer ATS integrations plus manually verified official careers listings. Public aggregator feeds are supplementary and not exhaustive. Curated entries are reviewed during live searches; recheck employer page before applying.",
   "ashby": [
     {
       "slug": "toku",
@@ -77,6 +77,75 @@
         "Voice Bot",
         "Implementation",
         "Project Management"
+      ]
+    },
+    {
+      "company": "Sprinklr",
+      "title": "Senior Implementation Consultant, CCAAS",
+      "location": "Bengaluru / Gurugram, India",
+      "workMode": "On-site/Hybrid",
+      "remote": false,
+      "url": "https://sprinklr.wd1.myworkdayjobs.com/en-US/careers/job/India---Karnataka---Bangalore/Sr-Implementation-Consultant_111806-JOB-1",
+      "source": "Sprinklr Careers",
+      "jobType": "Full-time",
+      "description": "Manage end-to-end implementation of Sprinklr CCaaS solutions for enterprise clients. Define implementation strategy and solution architecture; mentor junior consultants; lead discovery and requirements workshops; own customer engagements; coordinate Product, Engineering and Customer Success; conduct health checks and remediation plans. Requires 3+ years deploying voice and non-voice contact-centre applications such as Genesys Engage, Amazon Connect, Cisco Webex Contact Center, RingCentral or similar; complex CCaaS/UCaaS/CPaaS implementation leadership; strong TCP/IP, VoIP, SIP, RTP, WebRTC, ACD, IVR, CTI, dialer, SBC; API integration and troubleshooting.",
+      "tags": [
+        "CCaaS",
+        "SIP",
+        "RTP",
+        "WebRTC",
+        "ACD",
+        "IVR",
+        "CTI",
+        "Dialer",
+        "SBC",
+        "Implementation",
+        "Solution Architecture"
+      ]
+    },
+    {
+      "company": "Sprinklr",
+      "title": "Sr. Manager - Implementation (CCAAS)",
+      "location": "Bengaluru / Gurugram, India",
+      "workMode": "On-site/Hybrid",
+      "remote": false,
+      "url": "https://sprinklr.wd1.myworkdayjobs.com/en-US/careers/job/Sr-Implementation-Manager_113160-JOB",
+      "source": "Sprinklr Careers",
+      "jobType": "Full-time",
+      "description": "Lead a team of implementation consultants and oversee concurrent enterprise software deployments, client delivery, implementation strategy, quality, KPIs and process improvements. Requires 8+ years enterprise software implementation and 5+ years deploying voice/chat/email contact-centre applications such as Genesys Engage, Amazon Connect, Cisco Webex Contact Center, RingCentral or similar. CCaaS/UCaaS/CPaaS experience, team leadership and customer-facing delivery required. Voice protocols and contact-centre infrastructure are advantageous.",
+      "tags": [
+        "CCaaS",
+        "UCaaS",
+        "CPaaS",
+        "Contact Centre",
+        "Implementation",
+        "Team Leadership",
+        "SIP",
+        "RTP",
+        "ACD",
+        "IVR"
+      ]
+    },
+    {
+      "company": "Exotel",
+      "title": "Technical Account Manager -3 (Solution Architecture/Solution Consultant)",
+      "location": "Bengaluru / Gurugram, India",
+      "workMode": "On-site/Hybrid",
+      "remote": false,
+      "url": "https://exotel.hire.trakstar.com/jobs/fk0zzrn/",
+      "source": "Exotel Careers",
+      "jobType": "Full-time",
+      "description": "Customer-facing Technical Account Manager for strategic domestic enterprise customers. Own technical account engagement, adoption and retention; lead discovery, solution design and architecture discussions; advise on APIs, integrations, call flows and automation; conduct customer workshops and solution reviews; manage escalations and coordinate with Product, Engineering, Network, Sales and Support. Requires 4–8 years in TAM, Solutions Engineering, Solution Consulting or Customer Success Engineering, enterprise domestic account management, technical solutioning and executive stakeholder exposure. CPaaS, CCaaS, Conversational AI and Contact Centre experience preferred.",
+      "tags": [
+        "Technical Account Management",
+        "Solution Architecture",
+        "CPaaS",
+        "CCaaS",
+        "SIP",
+        "APIs",
+        "Integrations",
+        "Contact Centre",
+        "Customer Success"
       ]
     }
   ]
