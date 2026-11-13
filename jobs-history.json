@@ -40,6 +40,45 @@
       ],
       "uniqueAvailable": 4,
       "lastUpdatedAt": "2026-11-13T18:28:15.450Z"
+    },
+    "2026-11-14": {
+      "date": "2026-11-14",
+      "jobs": [
+        {
+          "id": "e32d664605301ddcedc4",
+          "title": "Head of Customer Success - India",
+          "company": "Exotel",
+          "url": "https://exotel.hire.trakstar.com/jobs/fk0z8rm/",
+          "location": "Bengaluru/Gurugram",
+          "firstSeenAt": "2026-11-13T18:31:07.646Z"
+        },
+        {
+          "id": "ca65bbe3da5a608a6eb5",
+          "title": "Principal Engineer (Voice Platform)",
+          "company": "Exotel",
+          "url": "https://exotel.hire.trakstar.com/jobs/fk0znz6/",
+          "location": "Bengaluru",
+          "firstSeenAt": "2026-11-13T18:31:07.646Z"
+        },
+        {
+          "id": "887051c3419b7d90d7fb",
+          "title": "Principal Engineer (Voice4AI)",
+          "company": "Exotel",
+          "url": "https://exotel.hire.trakstar.com/jobs/fk0pefg/",
+          "location": "Bengaluru",
+          "firstSeenAt": "2026-11-13T18:31:07.646Z"
+        },
+        {
+          "id": "915c15e2ae702fc14c14",
+          "title": "Senior Customer Success Manager-Africa & SAARC Cluster",
+          "company": "Exotel",
+          "url": "https://exotel.hire.trakstar.com/jobs/fk0zlan/",
+          "location": "Gurugram/Bengaluru",
+          "firstSeenAt": "2026-11-13T18:31:07.646Z"
+        }
+      ],
+      "uniqueAvailable": 4,
+      "lastUpdatedAt": "2026-11-13T18:31:07.646Z"
     }
   }
 }
