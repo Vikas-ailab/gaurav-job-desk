@@ -6,5 +6,19 @@
       "company": "Brillio"
     }
   ],
-  "notes": "Greenhouse/Lever board identifiers must be confirmed from each employer's official careers URL. Brillio's public Lever board was confirmed from its live careers posting. Add more verified board slugs as employers are identified."
+  "notes": "Automated public ATS boards: Brillio (Lever); Toku, Interface.ai and Sarvam (Ashby; board slugs to be validated by scheduled fetch). Exotel is collected from its official Trakstar careers page. Aggregator feeds are supplementary, not exhaustive.",
+  "ashby": [
+    {
+      "slug": "toku",
+      "company": "Toku"
+    },
+    {
+      "slug": "interface-ai",
+      "company": "Interface.ai"
+    },
+    {
+      "slug": "sarvam",
+      "company": "Sarvam"
+    }
+  ]
 }
