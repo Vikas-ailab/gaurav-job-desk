@@ -1,14 +1,190 @@
 {
   "meta": {
-    "lastRefreshed": "2026-11-13T18:39:57.484Z",
-    "sourcesChecked": "Lever:Brillio, Exotel official careers (Trakstar), Arbeitnow (hourly cache), Remotive (6-hour cache)",
+    "lastRefreshed": "2026-11-13T19:14:07.186Z",
+    "sourcesChecked": "Lever:Brillio, Ashby:Toku, Ashby:Interface.ai, Ashby:Sarvam, Exotel official careers (Trakstar), Arbeitnow (hourly cache), Remotive (6-hour cache)",
     "sourceErrors": [],
-    "listingCount": 4,
+    "listingCount": 11,
     "windowDays": 90,
     "locationRule": "Bengaluru office/hybrid/remote; outside Bengaluru fully remote India or worldwide only",
     "note": "Published by source API at collection time. Always open the original employer or job-board listing to confirm it remains accepting applications."
   },
   "jobs": [
+    {
+      "title": "Technical Partner Enablement Manager",
+      "company": "Sarvam",
+      "location": "Bengaluru",
+      "workMode": "OnSite",
+      "remote": false,
+      "posted": "2026-08-17T10:13:36.719+00:00",
+      "url": "https://jobs.ashbyhq.com/sarvam/fcd803a8-6ffb-48fa-99f9-d7f43e6572ee",
+      "description": "Sarvam Circle, our partner ecosystem, is one of our fastest growing vectors. It brings in firms to take frontier AI to government and public institutions, enterprises, and MSMEs across the country. Certified partner engineers building on our stack extend that reach at a breadth and pace that compounds. Every firm that gets good at building on Sarvam widens what all of our work reaches. There is a version of partner-built AI that actually works. Where a partner's engineers hold the same bar our own engineers do, where the playbooks are good enough to travel, and where a customer gets the same system whoever is in the room. That bar exists because Sarvam's engineers set it. Carrying it outward intact is what this role does, and it is the part most companies never solve. This is a hands-on technical role, not a pre-sales one. You own the engineering core of Sarvam Circle: how partner engineers get certified on our stack, what standard their work is held to, whether they can run an engagement without a Sarvam engineer beside them, and whether what they ship holds up. Done well, a large share of everything Sarvam delivers runs through the capability you built. ABOUT SARVAM Sarvam is India's leading full-stack AI company, building sovereign AI infrastructure and applications purpose-built for India. Headquartered in Bengaluru and founded by leading AI researchers, Sarvam builds foundational models for Indian languages, enterprise AI platforms, and voice-first AI agents that serve hundreds of millions of Indians. Sarvam is backed by top-tier investors and works with national and state governments, large enterprises, and developers across the country. We are building the AI layer for a billion people. WHAT THIS ROLE PROMISES YOU You shape the engine, not just run it Sarvam Circle already has the firms and the momentum. Training and enablement is central to how Sarvam works with its partners, and how that actually operates is being designed now: the certification, the quality bar, the onboarding, the scorecards, the standard a partner engineer is held to. You are early enough to own its shape, at a company growing this fast. Leverage over headcount Your output is not what you deliver, it is what several hundred engineers across multiple firms are capable of delivering. The ceiling on your impact is set by how well you build the system. You work at the source Sarvam builds the whole stack: the foundational models, the infrastructure they run on, and the products on top. When a partner hits something the platform does not do yet, you are in a room with the people who built it. WHAT YOU'LL DO - Own the technical relationship with a set of partner firms: what their engineers can build, how much certified capacity they hold, and the quality of what they ship. - Build the certification programme. Define what a partner engineer must demonstrate before they touch a Sarvam deployment, and run the process that gets them there. - Own partner enablement: the playbooks, tooling, training and access partner teams need to build on the Sarvam stack without a Sarvam engineer beside them. Our engineers author the technical build playbooks; you own whether they exist, are current, and are legible enough for someone outside Sarvam to execute. - Translate Sarvam's platform, models and product surface into something a partner's engineering team can build with. Most of the leverage in this role is in how well you do this. - Shape how a partner gets used on an engagement: which firm fits the work, where in the engagement they come in, and how the build splits between their engineers and ours. - Lead the first co-delivered engagement with a new partner, hands-on, and own the readiness call on whether they can run the next one independently. - Own the review cadence with partners. It is what keeps us close to the work: where each engagement stands against plan, where the risk sits, and what has to change before a date slips. - Hold the quality bar across the partner base: scorecards, an honest read on whether partner-built work matches our own standard, and corrective plans when it does not. WHO YOU ARE We are hiring across levels, from 6+ years of experience, up to Lead. - You have worked with systems integrators or consulting firms, from the inside or across the table. You know how their engineering organisations actually work, how their engineers are staffed and incentivised, and where quality tends to slip. - You are technical, and partners respect that. You do not need to ship production code, but you should be able to review an implementation, spot where it will break, and hold a design conversation with a partner's engineering lead as a peer. - You have built capability at scale. Enablement programmes, certification, training, or technical onboarding. Something that made other people better at building, that outlasted your involvement. - You understand agentic AI and can teach it. LLMs and agents in production, why evals matter, and w",
+      "source": "Ashby Careers",
+      "jobType": "FullTime",
+      "tags": [
+        "Deployment Engineering"
+      ],
+      "fitScore": 62,
+      "scoreBreakdown": {
+        "technical": 3,
+        "experience": 20,
+        "seniority": 15,
+        "domain": 4,
+        "location": 10,
+        "leadership": 10
+      },
+      "matchedSkills": [
+        "SLA"
+      ],
+      "missingSkills": [],
+      "mustHavePass": null,
+      "id": "843a836eec1172c84616",
+      "verified": true,
+      "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
+      "checkedAt": "2026-11-13T19:14:04.413Z"
+    },
+    {
+      "company": "Toku",
+      "title": "L2 Technical Support Lead – SIP and VoIP",
+      "location": "Remote – India (Bengaluru eligible)",
+      "workMode": "Remote",
+      "remote": true,
+      "url": "https://careers.toku.co/o/l2-technical-support-lead-sip-and-voip/c/new",
+      "source": "Toku Careers",
+      "jobType": "Full-time",
+      "description": "Hands-on technical leadership for L2 support across contact centre and voice services. Own escalated tickets, troubleshoot SIP routing, APIs, integrations, cloud infrastructure and Cisco voice/contact-centre technologies. Guide L2 engineers, manage ticket and SLA discipline, coordinate with customers, Engineering and Product. AWS fundamentals and enterprise escalation ownership preferred. Remote role based in India; occasional Chennai travel may be required.",
+      "tags": [
+        "SIP",
+        "VoIP",
+        "Contact Centre",
+        "AWS",
+        "L2 Support",
+        "SLA"
+      ],
+      "posted": "",
+      "checkedAt": "2026-11-13T19:14:04.128Z",
+      "fitScore": 64,
+      "scoreBreakdown": {
+        "technical": 3,
+        "experience": 14,
+        "seniority": 15,
+        "domain": 12,
+        "location": 10,
+        "leadership": 10
+      },
+      "matchedSkills": [
+        "SLA"
+      ],
+      "missingSkills": [],
+      "mustHavePass": true,
+      "id": "e0c47ebe6f919b262cd8",
+      "verified": true,
+      "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page"
+    },
+    {
+      "company": "Interface.ai",
+      "title": "Technical Support Engineer - L2",
+      "location": "Remote – Bangalore, India",
+      "workMode": "Remote",
+      "remote": true,
+      "url": "https://jobs.ashbyhq.com/interface-ai/3cb8c4a6-158b-4e05-90cd-b1df24a814dc",
+      "source": "Interface.ai Careers",
+      "jobType": "Full-time",
+      "description": "Remote L2 technical support for voice and conversational AI systems. Own complex customer escalations, investigate voice integrations, REST APIs and webhooks, debug logs and call recordings, lead incident response and write post-mortems. Requires 5+ years technical or implementation support in B2B SaaS, API/webhook debugging, SQL and familiarity with SIP and IVR routing.",
+      "tags": [
+        "SIP",
+        "IVR",
+        "Voice",
+        "Technical Support",
+        "APIs",
+        "Webhooks"
+      ],
+      "posted": "",
+      "checkedAt": "2026-11-13T19:14:04.129Z",
+      "fitScore": 59,
+      "scoreBreakdown": {
+        "technical": 3,
+        "experience": 20,
+        "seniority": 8,
+        "domain": 8,
+        "location": 10,
+        "leadership": 10
+      },
+      "matchedSkills": [
+        "REST API"
+      ],
+      "missingSkills": [],
+      "mustHavePass": true,
+      "id": "cfb42ea76cca58851534",
+      "verified": true,
+      "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page"
+    },
+    {
+      "company": "Exotel",
+      "title": "Technical Project Manager – Contact Center & Voice Bot Delivery",
+      "location": "Bengaluru, Karnataka, India",
+      "workMode": "On-site/Hybrid",
+      "remote": false,
+      "url": "https://exotel.hire.trakstar.com/jobs/fk0zdgu",
+      "source": "Exotel Careers",
+      "jobType": "Full-time",
+      "description": "Own end-to-end delivery of enterprise Voicebot and Contact Centre projects from kickoff through integrations, UAT, go-live and hypercare. Customer-facing project governance, stakeholder coordination, SIP knowledge, telephony readiness, APIs, webhooks, CRM and contact-centre integrations. Requires 5–8 years project/program management delivering customer-facing technical systems; SIP is mandatory. This is delivery leadership, not an engineering-manager role.",
+      "tags": [
+        "SIP",
+        "Contact Centre",
+        "CCaaS",
+        "Voice Bot",
+        "Implementation",
+        "Project Management"
+      ],
+      "posted": "",
+      "checkedAt": "2026-11-13T19:14:04.129Z",
+      "fitScore": 70,
+      "scoreBreakdown": {
+        "technical": 0,
+        "experience": 20,
+        "seniority": 15,
+        "domain": 15,
+        "location": 10,
+        "leadership": 10
+      },
+      "matchedSkills": [],
+      "missingSkills": [],
+      "mustHavePass": true,
+      "id": "75d835230237c95373b8",
+      "verified": true,
+      "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page"
+    },
+    {
+      "title": "Enterprise Customer Success Manager",
+      "company": "Exotel",
+      "location": "Bengaluru",
+      "workMode": "On-site/Hybrid",
+      "remote": false,
+      "posted": "",
+      "url": "https://exotel.hire.trakstar.com/jobs/fk0zntz/",
+      "description": "Enterprise Customer Success Manager at Exotel Techcom Pvt Ltd exotel.in Website Back to all openings See all the jobs at Exotel Techcom Pvt Ltd here: http://exotel.recruiterbox.com/jobs Enterprise Customer Success Manager Bengaluru , Karnataka , India | Growth | Full-time Apply with Linkedin Apply with Indeed Apply About Exotel: Exotel is a leading cloud communications platform that helps businesses transform how they engage with their customers. Our solutions power enterprise conversations across voice, messaging, and digital channels, enabling businesses to deliver seamless, reliable, and scalable customer experiences. We work with enterprises across industries, helping them solve complex communication challenges through cloud technology, APIs, and innovative communication solutions. At Exotel, we operate at the intersection of communications, technology, and customer experience, helping businesses build better customer interactions at scale. About the Role: We are looking for an Enterprise Customer Success Manager to manage and grow relationships with some of Exotel’s largest enterprise customers. In this role, you will own the customer relationship across the post-sales lifecycle - from implementation and solution launches to product adoption, renewals, and account expansion. You will work closely with customer stakeholders and internal teams to ensure successful deployments, resolve escalations, and identify opportunities to grow revenue from existing accounts. This is a customer-facing, commercially accountable role that combines technical understanding, relationship management, project coordination, and revenue ownership. The ideal candidate will have experience in SaaS customer success, technical account management, or enterprise account management, with a strong understanding of APIs and integrations. Experience managing customers in banking, financial services, or insurance (BFSI) will be an added advantage. What will you do: 1. Revenue Ownership and Account Growth Own monthly and quarterly revenue targets for assigned accounts, driving renewals, upselling, and cross-selling opportunities. Identify opportunities to expand product adoption and increase revenue within existing customer accounts. Collaborate with Sales teams to develop account growth strategies and convert expansion opportunities into revenue. Lead commercial discussions, negotiate pricing and contract terms, and manage subscription renewals. Proactively identify renewal risks and develop plans to protect and grow existing revenue. 2. Customer Relationship Management Serve as the primary point of contact for assigned enterprise customers, building strong relationships with business, technology, and leadership stakeholders. Understand customer objectives, business challenges, and success criteria, translating them into actionable plans. Drive customer engagement, satisfaction, retention, and long-term value realization. Conduct regular customer reviews and Quarterly Business Reviews (QBRs) to demonstrate value, review progress, and identify growth opportunities. Manage customer expectations proactively and address concerns before they escalate. 3. Technical Account Management Develop a strong understanding of Exotel’s platform, APIs, integrations, and product capabilities. Explain technical concepts and solution capabilities effectively to both business and technical stakeholders. Work with customer engineering teams and Exotel’s internal Product, Engineering, and Support teams to facilitate integrations and resolve technical challenges. Conduct product demonstrations and solution discussions to showcase how Exotel’s capabilities address customer requirements. Help customers diagnose technical issues and coordinate with internal teams to drive resolution. 4. Implementation and Project Management Coordinate customer implementations and solution launches, ensuring alignment on scope, timelines, milestones, and responsibilities. Work across customer teams and internal stakeholders to manage dependencies, track progress, and mitigate delivery risks. Manage multiple customer projects simultaneously, prioritising activities based on urgency, business impact, and customer commitments. Ensure smooth transitions from implementation to ongoing account management and product adoption. Track project outcomes and help customers realise the intended business value from Exotel’s solutions. 5. Escalation Management and Cross-functional Collaboration Own customer escalations and drive timely resolution by coordinating with Support, Engineering, Product, Finance, and other relevant teams. Communicate issues, risks, progress, and resolution plans clearly to customers and internal stakeholders. Partner with Finance and Accounts Receivable teams to resolve billing, payment, and commercial queries. Represent the voice of the customer internally, sharing feedback and recurring pain points to improve products and service delivery. 6. Reporting and Account Go",
+      "source": "Exotel Careers",
+      "jobType": "Full-time",
+      "tags": [],
+      "fitScore": 67,
+      "scoreBreakdown": {
+        "technical": 3,
+        "experience": 14,
+        "seniority": 15,
+        "domain": 15,
+        "location": 10,
+        "leadership": 10
+      },
+      "matchedSkills": [
+        "SLA"
+      ],
+      "missingSkills": [],
+      "mustHavePass": null,
+      "id": "28ce7e4f5cdf9cc97391",
+      "verified": true,
+      "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
+      "checkedAt": "2026-11-13T19:14:05.298Z"
+    },
     {
       "title": "Head of Customer Success - India",
       "company": "Exotel",
@@ -38,7 +214,36 @@
       "id": "e32d664605301ddcedc4",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-13T18:39:56.516Z"
+      "checkedAt": "2026-11-13T19:14:05.573Z"
+    },
+    {
+      "title": "Implementation Engineer",
+      "company": "Exotel",
+      "location": "Bengaluru",
+      "workMode": "On-site/Hybrid",
+      "remote": false,
+      "posted": "",
+      "url": "https://exotel.hire.trakstar.com/jobs/fk0zndh/",
+      "description": "Implementation Engineer at Exotel Techcom Pvt Ltd exotel.in Website Back to all openings See all the jobs at Exotel Techcom Pvt Ltd here: http://exotel.recruiterbox.com/jobs Implementation Engineer Bengaluru , Karnataka , India | Customer Operations | Full-time Apply with Linkedin Apply with Indeed Apply About Exotel Exotel is the emerging market’s leading full stack customer engagement platform and business-focused virtual telecom operator. Exotel has also recently received a virtual telecom operator license to offer cost-effective end-to-end VoIP telephony services, making the company a 100% compliant cloud calling operator. Exotel was founded in 2011 and has an impressive cloud-based product suite that drives 70 million conversations every day for more than 6000 businesses in India, Southeast Asia, the Middle East, and Africa. Today, the omnichannel contact centre, communication API suite, and conversational AI platform from Exotel help some of the fastest-growing businesses in emerging countries manage their customer engagement. They have a $50 million ARR and a $100 million Series D funding round. Exotel has won The ET StartUp Awards 2022 under the Comeback Kid category. What will you do? Assist in the installation and configuration of contact center software solutions, including IVR, ACD, CTI, and CRM systems Troubleshoot software performance, reliability, and scalability issues under the guidance of senior team members Assist in providing training to end-users on the use of contact center software solutions Collaborate with other members of the contact center team, including software developers, quality assurance analysts, and project managers Develop and maintain software documentation, including installation and configuration guides, troubleshooting manuals, and training materials Identify opportunities for process improvement and work with the team to implement solutions Ensure that all software installation and configuration follows established standards and best practices What are we looking for? 2 - 6 years of experience in an Implementation role Strong interest in software execution, preferably in a contact center environment Familiarity with Linux and Windows operating systems Excellent problem-solving skills and attention to detail Strong communication and collaboration skills Ability to work independently and manage multiple tasks simultaneously Basic to intermediate knowledge of working with Linux OS Basics of networking concepts (LAN, OSI, Topology, IPv4, IPv6, etc) Basics of database concepts - MySQL, Postgres, etc. Should be willing to learn telephony concepts (PRI, VOIP, etc.) Good listener with very good communication skills. Exceptional attention to detail and organizational skills. Excellent writing, editing, and proofreading skills. Basic knowledge of HTML and CSS would be an advantage. Apply Apply with Linkedin Apply with Indeed Apply for this opening at ?apply=true Back to all openings See all the jobs at Exotel Techcom Pvt Ltd here: http://exotel.recruiterbox.com/jobs Fetching your Linkedin profile ... Application Form Apply with Linkedin Apply with Indeed First Name * Last Name Email * Phone * Resume * Current Salary * Expected Salary * Notice Period? * Current Location? * Preferred Work Locations? * What is the name of your current organisation? * Thanks for your time Apply for this opening Apply with Linkedin Apply with Indeed --> Share this opening with friends powered by Trakstar Hire",
+      "source": "Exotel Careers",
+      "jobType": "Full-time",
+      "tags": [],
+      "fitScore": 70,
+      "scoreBreakdown": {
+        "technical": 0,
+        "experience": 20,
+        "seniority": 15,
+        "domain": 15,
+        "location": 10,
+        "leadership": 10
+      },
+      "matchedSkills": [],
+      "missingSkills": [],
+      "mustHavePass": null,
+      "id": "945213215108c10c3cdc",
+      "verified": true,
+      "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
+      "checkedAt": "2026-11-13T19:14:05.889Z"
     },
     {
       "title": "Principal Engineer (Voice Platform)",
@@ -71,7 +276,7 @@
       "id": "ca65bbe3da5a608a6eb5",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-13T18:39:56.827Z"
+      "checkedAt": "2026-11-13T19:14:06.201Z"
     },
     {
       "title": "Principal Engineer (Voice4AI)",
@@ -104,7 +309,38 @@
       "id": "887051c3419b7d90d7fb",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-13T18:39:57.147Z"
+      "checkedAt": "2026-11-13T19:14:06.540Z"
+    },
+    {
+      "title": "Product Support Engineer",
+      "company": "Exotel",
+      "location": "Bengaluru",
+      "workMode": "On-site/Hybrid",
+      "remote": false,
+      "posted": "",
+      "url": "https://exotel.hire.trakstar.com/jobs/fk0ziun/",
+      "description": "Product Support Engineer at Exotel Techcom Pvt Ltd exotel.in Website Back to all openings See all the jobs at Exotel Techcom Pvt Ltd here: http://exotel.recruiterbox.com/jobs Product Support Engineer Bengaluru , Karnataka , India | Growth | Full-time Apply with Linkedin Apply with Indeed Apply About the Role As a Product Support Engineer, you will be the first line of technical engagement for customers using Exotel’s cloud telephony, communication APIs, and customer engagement platform. Your role is critical in ensuring customers receive timely, accurate, and empathetic support while you help them troubleshoot issues, understand product behavior, and get the best out of Exotel’s solutions. This position is perfect for someone who enjoys diving into technical details, communicating clearly with customers, and collaborating with internal teams to improve overall customer satisfaction. Key Responsibilities Customer Issue Resolution Serve as the primary contact for customers via email, phone, and ticketing systems for Level 1 inquiries. Diagnose issues related to call flows, APIs, SMS/voice routing, call recordings, and Exotel dashboard functionalities. Perform preliminary investigations such as log checks, configuration reviews, and environment validation. Provide clear, actionable solutions and workarounds within defined SLAs. Technical Troubleshooting Analyze API requests/responses, webhook logs, and common communication protocol issues. Assist customers with setup, configuration, debugging, and best practices. Escalate complex or platform-level problems to L2/L3 teams with complete technical context. Collaboration & Communication Coordinate with engineering, product for bug verification and feature clarifications. Document common issues, solutions, and internal runbooks for knowledge sharing. Contribute to improving support processes and customer experience. Quality & Compliance Ensure consistent adherence to SLA, quality standards, and communication guidelines. Maintain accurate records of issue tracking, escalations, and resolutions. Required Skills & Qualifications Technical Skills Solid understanding of APIs, JSON, webhooks, HTTP methods. Basic knowledge of networking concepts (DNS, latency, firewalls, ports). Exposure to cloud platforms and debugging tools like Postman, cURL, Kibana, or similar. Understanding of telephony or communication platforms is a bonus. Understanding of VSIP (Voice SIP) protocols, SIP call flows, and related troubleshooting. Soft Skills Excellent written and verbal communication. Strong analytical thinking with attention to detail. Ability to remain calm, structured, and solution-oriented under pressure. Customer-first attitude with empathy and clarity in problem-solving. Preferred Qualifications Experience supporting SaaS or communication-platform products. Familiarity with Exotel or similar platforms (Knowlarity, Twilio, Kaleyra, etc.). Ability to create knowledge-base articles or runbooks. What You Can Expect Hands-on learning across cloud communication systems, APIs, and telephony workflows. Opportunities to collaborate with product, engineering, and customer success teams. A fast-paced environment where your contribution directly impacts customer delight. Apply Apply with Linkedin Apply with Indeed Apply for this opening at ?apply=true Back to all openings See all the jobs at Exotel Techcom Pvt Ltd here: http://exotel.recruiterbox.com/jobs Fetching your Linkedin profile ... Application Form Apply with Linkedin Apply with Indeed First Name * Last Name Email * Phone * Resume * What is your current CTC? * What is your Expected CTC? * What is your notice period? * How many years of experience do you have with SAAS companies? * How many years of experience do you have in API Integrations? * Thanks for your time Apply for this opening Apply with Linkedin Apply with Indeed --> Share this opening with friends powered by Trakstar Hire",
+      "source": "Exotel Careers",
+      "jobType": "Full-time",
+      "tags": [],
+      "fitScore": 57,
+      "scoreBreakdown": {
+        "technical": 3,
+        "experience": 14,
+        "seniority": 8,
+        "domain": 12,
+        "location": 10,
+        "leadership": 10
+      },
+      "matchedSkills": [
+        "SLA"
+      ],
+      "missingSkills": [],
+      "mustHavePass": true,
+      "id": "1e1d248637210f35e134",
+      "verified": true,
+      "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
+      "checkedAt": "2026-11-13T19:14:06.865Z"
     },
     {
       "title": "Senior Customer Success Manager-Africa & SAARC Cluster",
@@ -133,7 +369,7 @@
       "id": "915c15e2ae702fc14c14",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-13T18:39:57.474Z"
+      "checkedAt": "2026-11-13T19:14:07.173Z"
     }
   ]
 }

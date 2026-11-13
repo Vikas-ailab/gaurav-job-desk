@@ -75,10 +75,66 @@
           "url": "https://exotel.hire.trakstar.com/jobs/fk0zlan/",
           "location": "Gurugram/Bengaluru",
           "firstSeenAt": "2026-11-13T18:31:07.646Z"
+        },
+        {
+          "id": "843a836eec1172c84616",
+          "title": "Technical Partner Enablement Manager",
+          "company": "Sarvam",
+          "url": "https://jobs.ashbyhq.com/sarvam/fcd803a8-6ffb-48fa-99f9-d7f43e6572ee",
+          "location": "Bengaluru",
+          "firstSeenAt": "2026-11-13T19:14:07.185Z"
+        },
+        {
+          "id": "e0c47ebe6f919b262cd8",
+          "title": "L2 Technical Support Lead – SIP and VoIP",
+          "company": "Toku",
+          "url": "https://careers.toku.co/o/l2-technical-support-lead-sip-and-voip/c/new",
+          "location": "Remote – India (Bengaluru eligible)",
+          "firstSeenAt": "2026-11-13T19:14:07.185Z"
+        },
+        {
+          "id": "cfb42ea76cca58851534",
+          "title": "Technical Support Engineer - L2",
+          "company": "Interface.ai",
+          "url": "https://jobs.ashbyhq.com/interface-ai/3cb8c4a6-158b-4e05-90cd-b1df24a814dc",
+          "location": "Remote – Bangalore, India",
+          "firstSeenAt": "2026-11-13T19:14:07.185Z"
+        },
+        {
+          "id": "75d835230237c95373b8",
+          "title": "Technical Project Manager – Contact Center & Voice Bot Delivery",
+          "company": "Exotel",
+          "url": "https://exotel.hire.trakstar.com/jobs/fk0zdgu",
+          "location": "Bengaluru, Karnataka, India",
+          "firstSeenAt": "2026-11-13T19:14:07.185Z"
+        },
+        {
+          "id": "28ce7e4f5cdf9cc97391",
+          "title": "Enterprise Customer Success Manager",
+          "company": "Exotel",
+          "url": "https://exotel.hire.trakstar.com/jobs/fk0zntz/",
+          "location": "Bengaluru",
+          "firstSeenAt": "2026-11-13T19:14:07.185Z"
+        },
+        {
+          "id": "945213215108c10c3cdc",
+          "title": "Implementation Engineer",
+          "company": "Exotel",
+          "url": "https://exotel.hire.trakstar.com/jobs/fk0zndh/",
+          "location": "Bengaluru",
+          "firstSeenAt": "2026-11-13T19:14:07.185Z"
+        },
+        {
+          "id": "1e1d248637210f35e134",
+          "title": "Product Support Engineer",
+          "company": "Exotel",
+          "url": "https://exotel.hire.trakstar.com/jobs/fk0ziun/",
+          "location": "Bengaluru",
+          "firstSeenAt": "2026-11-13T19:14:07.185Z"
         }
       ],
-      "uniqueAvailable": 4,
-      "lastUpdatedAt": "2026-11-13T18:39:57.483Z"
+      "uniqueAvailable": 11,
+      "lastUpdatedAt": "2026-11-13T19:14:07.185Z"
     }
   }
 }
