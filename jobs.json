@@ -1,12 +1,12 @@
 {
   "meta": {
-    "lastRefreshed": "2026-11-13T19:14:07.186Z",
-    "sourcesChecked": "Lever:Brillio, Ashby:Toku, Ashby:Interface.ai, Ashby:Sarvam, Exotel official careers (Trakstar), Arbeitnow (hourly cache), Remotive (6-hour cache)",
+    "lastRefreshed": "2026-11-13T19:14:59.831Z",
+    "sourcesChecked": "Lever:Brillio, Ashby:Toku, Ashby:Interface.ai, Ashby:Sarvam, Exotel official careers (Trakstar), Arbeitnow (hourly cache), Remotive (6-hour cache), Sprinklr official Workday careers, Exotel official Trakstar careers, Toku official careers",
     "sourceErrors": [],
-    "listingCount": 11,
+    "listingCount": 14,
     "windowDays": 90,
     "locationRule": "Bengaluru office/hybrid/remote; outside Bengaluru fully remote India or worldwide only",
-    "note": "Published by source API at collection time. Always open the original employer or job-board listing to confirm it remains accepting applications."
+    "note": "Listings from employer career pages and public ATS/job feeds. Open employer links to confirm current status. Fit scores are heuristic and must-have requirements should be checked manually."
   },
   "jobs": [
     {
@@ -60,8 +60,6 @@
         "L2 Support",
         "SLA"
       ],
-      "posted": "",
-      "checkedAt": "2026-11-13T19:14:04.128Z",
       "fitScore": 64,
       "scoreBreakdown": {
         "technical": 3,
@@ -76,9 +74,11 @@
       ],
       "missingSkills": [],
       "mustHavePass": true,
-      "id": "e0c47ebe6f919b262cd8",
+      "id": "curated-toku-0",
+      "posted": "",
       "verified": true,
-      "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page"
+      "verification": "Official employer careers page checked during the 14 Nov 2026 web review. Re-open the employer page to confirm the role remains open.",
+      "checkedAt": "2026-11-13T19:14:59.831Z"
     },
     {
       "company": "Interface.ai",
@@ -98,8 +98,6 @@
         "APIs",
         "Webhooks"
       ],
-      "posted": "",
-      "checkedAt": "2026-11-13T19:14:04.129Z",
       "fitScore": 59,
       "scoreBreakdown": {
         "technical": 3,
@@ -114,9 +112,11 @@
       ],
       "missingSkills": [],
       "mustHavePass": true,
-      "id": "cfb42ea76cca58851534",
+      "id": "curated-interface-ai-1",
+      "posted": "",
       "verified": true,
-      "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page"
+      "verification": "Official employer careers page checked during the 14 Nov 2026 web review. Re-open the employer page to confirm the role remains open.",
+      "checkedAt": "2026-11-13T19:14:59.831Z"
     },
     {
       "company": "Exotel",
@@ -136,8 +136,6 @@
         "Implementation",
         "Project Management"
       ],
-      "posted": "",
-      "checkedAt": "2026-11-13T19:14:04.129Z",
       "fitScore": 70,
       "scoreBreakdown": {
         "technical": 0,
@@ -150,9 +148,11 @@
       "matchedSkills": [],
       "missingSkills": [],
       "mustHavePass": true,
-      "id": "75d835230237c95373b8",
+      "id": "curated-exotel-2",
+      "posted": "",
       "verified": true,
-      "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page"
+      "verification": "Official employer careers page checked during the 14 Nov 2026 web review. Re-open the employer page to confirm the role remains open.",
+      "checkedAt": "2026-11-13T19:14:59.831Z"
     },
     {
       "title": "Enterprise Customer Success Manager",
@@ -370,6 +370,128 @@
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
       "checkedAt": "2026-11-13T19:14:07.173Z"
+    },
+    {
+      "company": "Sprinklr",
+      "title": "Senior Implementation Consultant, CCAAS",
+      "location": "Bengaluru / Gurugram, India",
+      "workMode": "On-site/Hybrid",
+      "remote": false,
+      "url": "https://sprinklr.wd1.myworkdayjobs.com/en-US/careers/job/India---Karnataka---Bangalore/Sr-Implementation-Consultant_111806-JOB-1",
+      "source": "Sprinklr Careers",
+      "jobType": "Full-time",
+      "description": "Manage end-to-end implementation of Sprinklr CCaaS solutions for enterprise clients. Define implementation strategy and solution architecture; mentor junior consultants; lead discovery and requirements workshops; own customer engagements; coordinate Product, Engineering and Customer Success; conduct health checks and remediation plans. Requires 3+ years deploying voice and non-voice contact-centre applications such as Genesys Engage, Amazon Connect, Cisco Webex Contact Center, RingCentral or similar; complex CCaaS/UCaaS/CPaaS implementation leadership; strong TCP/IP, VoIP, SIP, RTP, WebRTC, ACD, IVR, CTI, dialer, SBC; API integration and troubleshooting.",
+      "tags": [
+        "CCaaS",
+        "SIP",
+        "RTP",
+        "WebRTC",
+        "ACD",
+        "IVR",
+        "CTI",
+        "Dialer",
+        "SBC",
+        "Implementation",
+        "Solution Architecture"
+      ],
+      "fitScore": 70,
+      "scoreBreakdown": {
+        "technical": 0,
+        "experience": 20,
+        "seniority": 15,
+        "domain": 15,
+        "location": 10,
+        "leadership": 10
+      },
+      "matchedSkills": [],
+      "missingSkills": [
+        "SBC"
+      ],
+      "mustHavePass": false,
+      "id": "curated-sprinklr-3",
+      "posted": "",
+      "verified": true,
+      "verification": "Official employer careers page checked during the 14 Nov 2026 web review. Re-open the employer page to confirm the role remains open.",
+      "checkedAt": "2026-11-13T19:14:59.831Z"
+    },
+    {
+      "company": "Sprinklr",
+      "title": "Sr. Manager - Implementation (CCAAS)",
+      "location": "Bengaluru / Gurugram, India",
+      "workMode": "On-site/Hybrid",
+      "remote": false,
+      "url": "https://sprinklr.wd1.myworkdayjobs.com/en-US/careers/job/Sr-Implementation-Manager_113160-JOB",
+      "source": "Sprinklr Careers",
+      "jobType": "Full-time",
+      "description": "Lead a team of implementation consultants and oversee concurrent enterprise software deployments, client delivery, implementation strategy, quality, KPIs and process improvements. Requires 8+ years enterprise software implementation and 5+ years deploying voice/chat/email contact-centre applications such as Genesys Engage, Amazon Connect, Cisco Webex Contact Center, RingCentral or similar. CCaaS/UCaaS/CPaaS experience, team leadership and customer-facing delivery required. Voice protocols and contact-centre infrastructure are advantageous.",
+      "tags": [
+        "CCaaS",
+        "UCaaS",
+        "CPaaS",
+        "Contact Centre",
+        "Implementation",
+        "Team Leadership",
+        "SIP",
+        "RTP",
+        "ACD",
+        "IVR"
+      ],
+      "fitScore": 70,
+      "scoreBreakdown": {
+        "technical": 0,
+        "experience": 20,
+        "seniority": 15,
+        "domain": 15,
+        "location": 10,
+        "leadership": 10
+      },
+      "matchedSkills": [],
+      "missingSkills": [],
+      "mustHavePass": true,
+      "id": "curated-sprinklr-4",
+      "posted": "",
+      "verified": true,
+      "verification": "Official employer careers page checked during the 14 Nov 2026 web review. Re-open the employer page to confirm the role remains open.",
+      "checkedAt": "2026-11-13T19:14:59.831Z"
+    },
+    {
+      "company": "Exotel",
+      "title": "Technical Account Manager -3 (Solution Architecture/Solution Consultant)",
+      "location": "Bengaluru / Gurugram, India",
+      "workMode": "On-site/Hybrid",
+      "remote": false,
+      "url": "https://exotel.hire.trakstar.com/jobs/fk0zzrn/",
+      "source": "Exotel Careers",
+      "jobType": "Full-time",
+      "description": "Customer-facing Technical Account Manager for strategic domestic enterprise customers. Own technical account engagement, adoption and retention; lead discovery, solution design and architecture discussions; advise on APIs, integrations, call flows and automation; conduct customer workshops and solution reviews; manage escalations and coordinate with Product, Engineering, Network, Sales and Support. Requires 4–8 years in TAM, Solutions Engineering, Solution Consulting or Customer Success Engineering, enterprise domestic account management, technical solutioning and executive stakeholder exposure. CPaaS, CCaaS, Conversational AI and Contact Centre experience preferred.",
+      "tags": [
+        "Technical Account Management",
+        "Solution Architecture",
+        "CPaaS",
+        "CCaaS",
+        "SIP",
+        "APIs",
+        "Integrations",
+        "Contact Centre",
+        "Customer Success"
+      ],
+      "fitScore": 70,
+      "scoreBreakdown": {
+        "technical": 0,
+        "experience": 20,
+        "seniority": 15,
+        "domain": 15,
+        "location": 10,
+        "leadership": 10
+      },
+      "matchedSkills": [],
+      "missingSkills": [],
+      "mustHavePass": true,
+      "id": "curated-exotel-5",
+      "posted": "",
+      "verified": true,
+      "verification": "Official employer careers page checked during the 14 Nov 2026 web review. Re-open the employer page to confirm the role remains open.",
+      "checkedAt": "2026-11-13T19:14:59.831Z"
     }
   ]
 }
