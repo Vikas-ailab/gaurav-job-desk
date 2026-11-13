@@ -80,16 +80,16 @@ try {
     if (seen.has(path) || path === "/jobs/") continue;
     seen.add(path);
     const listingText = clean(match[2]);
-    const title = listingText.replace(/\\s+(?:Bengaluru|Bangalore|Gurugram|Gurgaon|Mumbai|Hyderabad|Delhi|Noida)\\b.*$/i, "").trim();
-    const loc = (listingText.match(/\\b(?:Bengaluru|Bangalore|Gurugram|Gurgaon|Mumbai|Hyderabad|Delhi|Noida)(?:\\s*\\/\\s*(?:Bengaluru|Bangalore|Gurugram|Gurgaon|Mumbai|Hyderabad|Delhi|Noida))?(?:,\\s*[A-Za-z ]+)?/i)||[])[0] || "";
+    const title = listingText.replace(/\s+(?:Bengaluru|Bangalore|Gurugram|Gurgaon|Mumbai|Hyderabad|Delhi|Noida)\b.*$/i, "").trim();
+    const loc = (listingText.match(/\b(?:Bengaluru|Bangalore|Gurugram|Gurgaon|Mumbai|Hyderabad|Delhi|Noida)(?:\s*\/\s*(?:Bengaluru|Bangalore|Gurugram|Gurgaon|Mumbai|Hyderabad|Delhi|Noida))?(?:,\s*[A-Za-z ]+)?/i)||[])[0] || "";
     if (!title) continue;
-    if (!/head of customer success|senior customer success|principal engineer \\(voice|technical account manager|technical project manager|contact center|contact centre|voice platform|implementation manager|implementation lead/i.test(title)) continue;
+    if (!/head of customer success|senior customer success|principal engineer \(voice|technical account manager|technical project manager|contact center|contact centre|voice platform|implementation manager|implementation lead/i.test(title)) continue;
     try {
       const detailUrl = "https://exotel.hire.trakstar.com" + path;
       const detail = await (await fetch(detailUrl, {headers:{"user-agent":"GauravJobDesk/1.0"}})).text();
       const plain = clean(detail.replace(/<script[\s\S]*?<\/script>/gi," ").replace(/<style[\s\S]*?<\/style>/gi," "));
       const loc = (detail.match(/([A-Za-z ,/]+(?:Bengaluru|Bangalore|Gurugram|Gurgaon|Mumbai|Hyderabad|India)[A-Za-z ,/]*)\s*\|\s*[^|]{2,60}\s*\|\s*Full-time/i)||[])[1] || "";
-      add({title,company:"Exotel",location:loc || "Bengaluru, India",workMode:/remote/i.test(loc)?"Remote":"On-site/Hybrid",remote:/remote/i.test(loc),posted:"",url:detailUrl,description:plain,source:"Exotel Careers",jobType:"Full-time",tags:[]});
+      add({title,company:"Exotel",location:loc || "",workMode:/remote/i.test(loc)?"Remote":"On-site/Hybrid",remote:/remote/i.test(loc),posted:"",url:detailUrl,description:plain,source:"Exotel Careers",jobType:"Full-time",tags:[]});
     } catch(error) { errors.push("Exotel detail "+title+": "+error.message); }
   }
   checked.push("Exotel official careers (Trakstar)");
