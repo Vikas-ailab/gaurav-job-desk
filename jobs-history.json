@@ -131,10 +131,58 @@
           "url": "https://exotel.hire.trakstar.com/jobs/fk0ziun/",
           "location": "Bengaluru",
           "firstSeenAt": "2026-11-13T19:14:07.185Z"
+        },
+        {
+          "id": "curated-toku-0",
+          "title": "L2 Technical Support Lead – SIP and VoIP",
+          "company": "Toku",
+          "url": "https://careers.toku.co/o/l2-technical-support-lead-sip-and-voip/c/new",
+          "location": "Remote – India (Bengaluru eligible)",
+          "firstSeenAt": "2026-11-13T19:14:59.831Z"
+        },
+        {
+          "id": "curated-interface-ai-1",
+          "title": "Technical Support Engineer - L2",
+          "company": "Interface.ai",
+          "url": "https://jobs.ashbyhq.com/interface-ai/3cb8c4a6-158b-4e05-90cd-b1df24a814dc",
+          "location": "Remote – Bangalore, India",
+          "firstSeenAt": "2026-11-13T19:14:59.831Z"
+        },
+        {
+          "id": "curated-exotel-2",
+          "title": "Technical Project Manager – Contact Center & Voice Bot Delivery",
+          "company": "Exotel",
+          "url": "https://exotel.hire.trakstar.com/jobs/fk0zdgu",
+          "location": "Bengaluru, Karnataka, India",
+          "firstSeenAt": "2026-11-13T19:14:59.831Z"
+        },
+        {
+          "id": "curated-sprinklr-3",
+          "title": "Senior Implementation Consultant, CCAAS",
+          "company": "Sprinklr",
+          "url": "https://sprinklr.wd1.myworkdayjobs.com/en-US/careers/job/India---Karnataka---Bangalore/Sr-Implementation-Consultant_111806-JOB-1",
+          "location": "Bengaluru / Gurugram, India",
+          "firstSeenAt": "2026-11-13T19:14:59.831Z"
+        },
+        {
+          "id": "curated-sprinklr-4",
+          "title": "Sr. Manager - Implementation (CCAAS)",
+          "company": "Sprinklr",
+          "url": "https://sprinklr.wd1.myworkdayjobs.com/en-US/careers/job/Sr-Implementation-Manager_113160-JOB",
+          "location": "Bengaluru / Gurugram, India",
+          "firstSeenAt": "2026-11-13T19:14:59.831Z"
+        },
+        {
+          "id": "curated-exotel-5",
+          "title": "Technical Account Manager -3 (Solution Architecture/Solution Consultant)",
+          "company": "Exotel",
+          "url": "https://exotel.hire.trakstar.com/jobs/fk0zzrn/",
+          "location": "Bengaluru / Gurugram, India",
+          "firstSeenAt": "2026-11-13T19:14:59.831Z"
         }
       ],
-      "uniqueAvailable": 11,
-      "lastUpdatedAt": "2026-11-13T19:14:07.185Z"
+      "uniqueAvailable": 17,
+      "lastUpdatedAt": "2026-11-13T19:14:59.831Z"
     }
   }
 }
