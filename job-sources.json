@@ -20,5 +20,64 @@
       "slug": "sarvam",
       "company": "Sarvam"
     }
+  ],
+  "curated": [
+    {
+      "company": "Toku",
+      "title": "L2 Technical Support Lead – SIP and VoIP",
+      "location": "Remote – India (Bengaluru eligible)",
+      "workMode": "Remote",
+      "remote": true,
+      "url": "https://careers.toku.co/o/l2-technical-support-lead-sip-and-voip/c/new",
+      "source": "Toku Careers",
+      "jobType": "Full-time",
+      "description": "Hands-on technical leadership for L2 support across contact centre and voice services. Own escalated tickets, troubleshoot SIP routing, APIs, integrations, cloud infrastructure and Cisco voice/contact-centre technologies. Guide L2 engineers, manage ticket and SLA discipline, coordinate with customers, Engineering and Product. AWS fundamentals and enterprise escalation ownership preferred. Remote role based in India; occasional Chennai travel may be required.",
+      "tags": [
+        "SIP",
+        "VoIP",
+        "Contact Centre",
+        "AWS",
+        "L2 Support",
+        "SLA"
+      ]
+    },
+    {
+      "company": "Interface.ai",
+      "title": "Technical Support Engineer - L2",
+      "location": "Remote – Bangalore, India",
+      "workMode": "Remote",
+      "remote": true,
+      "url": "https://jobs.ashbyhq.com/interface-ai/3cb8c4a6-158b-4e05-90cd-b1df24a814dc",
+      "source": "Interface.ai Careers",
+      "jobType": "Full-time",
+      "description": "Remote L2 technical support for voice and conversational AI systems. Own complex customer escalations, investigate voice integrations, REST APIs and webhooks, debug logs and call recordings, lead incident response and write post-mortems. Requires 5+ years technical or implementation support in B2B SaaS, API/webhook debugging, SQL and familiarity with SIP and IVR routing.",
+      "tags": [
+        "SIP",
+        "IVR",
+        "Voice",
+        "Technical Support",
+        "APIs",
+        "Webhooks"
+      ]
+    },
+    {
+      "company": "Exotel",
+      "title": "Technical Project Manager – Contact Center & Voice Bot Delivery",
+      "location": "Bengaluru, Karnataka, India",
+      "workMode": "On-site/Hybrid",
+      "remote": false,
+      "url": "https://exotel.hire.trakstar.com/jobs/fk0zdgu",
+      "source": "Exotel Careers",
+      "jobType": "Full-time",
+      "description": "Own end-to-end delivery of enterprise Voicebot and Contact Centre projects from kickoff through integrations, UAT, go-live and hypercare. Customer-facing project governance, stakeholder coordination, SIP knowledge, telephony readiness, APIs, webhooks, CRM and contact-centre integrations. Requires 5–8 years project/program management delivering customer-facing technical systems; SIP is mandatory. This is delivery leadership, not an engineering-manager role.",
+      "tags": [
+        "SIP",
+        "Contact Centre",
+        "CCaaS",
+        "Voice Bot",
+        "Implementation",
+        "Project Management"
+      ]
+    }
   ]
 }
