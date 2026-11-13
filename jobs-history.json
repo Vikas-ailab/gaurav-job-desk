@@ -179,10 +179,34 @@
           "url": "https://exotel.hire.trakstar.com/jobs/fk0zzrn/",
           "location": "Bengaluru / Gurugram, India",
           "firstSeenAt": "2026-11-13T19:14:59.831Z"
+        },
+        {
+          "id": "55823206fef7a03f6a1c",
+          "title": "Senior Implementation Consultant, CCAAS",
+          "company": "Sprinklr",
+          "url": "https://sprinklr.wd1.myworkdayjobs.com/en-US/careers/job/India---Karnataka---Bangalore/Sr-Implementation-Consultant_111806-JOB-1",
+          "location": "Bengaluru / Gurugram, India",
+          "firstSeenAt": "2026-11-13T19:15:58.985Z"
+        },
+        {
+          "id": "4076b28d06d6065cd77e",
+          "title": "Sr. Manager - Implementation (CCAAS)",
+          "company": "Sprinklr",
+          "url": "https://sprinklr.wd1.myworkdayjobs.com/en-US/careers/job/Sr-Implementation-Manager_113160-JOB",
+          "location": "Bengaluru / Gurugram, India",
+          "firstSeenAt": "2026-11-13T19:15:58.985Z"
+        },
+        {
+          "id": "7c5fd27d6d7013ddc60f",
+          "title": "Technical Account Manager -3 (Solution Architecture/Solution Consultant)",
+          "company": "Exotel",
+          "url": "https://exotel.hire.trakstar.com/jobs/fk0zzrn/",
+          "location": "Bengaluru / Gurugram, India",
+          "firstSeenAt": "2026-11-13T19:15:58.985Z"
         }
       ],
-      "uniqueAvailable": 17,
-      "lastUpdatedAt": "2026-11-13T19:14:59.831Z"
+      "uniqueAvailable": 20,
+      "lastUpdatedAt": "2026-11-13T19:15:58.985Z"
     }
   }
 }
