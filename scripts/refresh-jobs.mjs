@@ -73,7 +73,7 @@ for (const entry of config.lever || []) {
 // simply because the employer does not expose a Greenhouse/Lever board API.
 try {
   const html = await (await fetch("https://exotel.hire.trakstar.com/jobs", {headers:{"user-agent":"GauravJobDesk/1.0"}})).text();
-  const links = [...html.matchAll(/<a\\b[^>]*href=["'](\\/jobs\\/[a-z0-9]+\\/?)["'][^>]*>([\\s\\S]*?)<\\/a>/gi)];
+  const links = [...html.matchAll(/<a\b[^>]*href=["'](\/jobs\/[a-z0-9]+\/?)["'][^>]*>([\s\S]*?)<\/a>/gi)];
   const seen = new Set();
   for (const match of links) {
     const path = match[1];
@@ -84,8 +84,8 @@ try {
     try {
       const detailUrl = "https://exotel.hire.trakstar.com" + path;
       const detail = await (await fetch(detailUrl, {headers:{"user-agent":"GauravJobDesk/1.0"}})).text();
-      const plain = clean(detail.replace(/<script[\\s\\S]*?<\\/script>/gi," ").replace(/<style[\\s\\S]*?<\\/style>/gi," "));
-      const loc = (detail.match(/([A-Za-z ,/]+(?:Bengaluru|Bangalore|Gurugram|Gurgaon|Mumbai|Hyderabad|India)[A-Za-z ,/]*)\\s*\\|\\s*[^|]{2,60}\\s*\\|\\s*Full-time/i)||[])[1] || "";
+      const plain = clean(detail.replace(/<script[\s\S]*?<\/script>/gi," ").replace(/<style[\s\S]*?<\/style>/gi," "));
+      const loc = (detail.match(/([A-Za-z ,/]+(?:Bengaluru|Bangalore|Gurugram|Gurgaon|Mumbai|Hyderabad|India)[A-Za-z ,/]*)\s*\|\s*[^|]{2,60}\s*\|\s*Full-time/i)||[])[1] || "";
       add({title,company:"Exotel",location:loc || "Bengaluru, India",workMode:/remote/i.test(loc)?"Remote":"On-site/Hybrid",remote:/remote/i.test(loc),posted:"",url:detailUrl,description:plain,source:"Exotel Careers",jobType:"Full-time",tags:[]});
     } catch(error) { errors.push("Exotel detail "+title+": "+error.message); }
   }
