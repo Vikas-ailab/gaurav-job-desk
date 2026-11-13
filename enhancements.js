@@ -68,7 +68,7 @@ window.downloadRoleCV=function(idx){
  const a=get("gj_tracker",[]),j=a[Number(idx)];if(!j)return;
  const blob=new Blob([cvHtml(j)],{type:"text/html;charset=utf-8"}),url=URL.createObjectURL(blob),link=document.createElement("a");
  link.href=url;link.download=("Gaurav_Rathore_"+String(j.company||"Role").replace(/[^a-z0-9]+/gi,"_")+"_"+String(j.title||"CV").replace(/[^a-z0-9]+/gi,"_")+"_CV.html").replace(/_+/g,"_");document.body.appendChild(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1500);
- alert("Role-specific CV downloaded. Open it in a browser and use Print → Save as PDF. Review it carefully: the app does not yet contain Gaurav’s complete CV.");
+ alert("Role-specific CV downloaded. Open it in a browser and use Print → Save as PDF. Review the role-specific draft carefully against the source CV before use.");
 };
 function approvalsPanel(){
  let a=get("gj_tracker",[]),m=$("#main");
