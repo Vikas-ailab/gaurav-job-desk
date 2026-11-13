@@ -44,7 +44,7 @@ const jobs = [], errors = [], checked = [];
 function add(job) {
   job.description = clean(job.description).slice(0,5000);
   if (!job.title || !job.company || !job.url || !String(job.url).startsWith("https://")) return;
-  if (!/lead|manager|senior|specialist|architect|implementation|operations|consultant|head|principal|director|technical account|customer success|project manager|voice platform|product head/i.test(job.title)) return;
+  if (!/lead|manager|senior|specialist|architect|implementation|operations|consultant|head|principal|director|technical account|customer success|project manager|voice platform|product head|support engineer/i.test(job.title)) return;
   if (job.jobType && !/full.?time|permanent/i.test(job.jobType)) return;
   if ((job.posted && ageDays(job.posted)>90) || !allowedLocation(job) || !relevant(job)) return;
   const score = assess(job);
@@ -68,6 +68,25 @@ for (const entry of config.lever || []) {
     for (const item of data || []) add({title:item.text,company,location:item.categories?.location || "",workMode:item.workplaceType || "Unspecified",remote:/remote/i.test(item.workplaceType || "") || /remote/i.test(item.categories?.location || ""),posted:item.createdAt?new Date(item.createdAt).toISOString():"",url:item.hostedUrl,description:item.descriptionPlain || item.description || "",source:"Lever",jobType:item.categories?.commitment || "",tags:[]});
   } catch(error) { errors.push("Lever "+slug+": "+error.message); }
 }
+
+// Ashby public job boards. Each board is validated at runtime; unavailable boards are logged.
+for (const entry of config.ashby || []) {
+  const slug = typeof entry === "string" ? entry : entry.slug;
+  const company = typeof entry === "string" ? entry : (entry.company || entry.slug);
+  try {
+    const data = await fetchJson("https://api.ashbyhq.com/posting-api/job-board/" + encodeURIComponent(slug));
+    checked.push("Ashby:" + company);
+    for (const item of data.jobs || []) add({
+      title:item.title,company,location:item.location || item.locationName || "",
+      workMode:item.workplaceType || "Unspecified",
+      remote:/remote|hybrid/i.test(item.workplaceType || "") || /remote/i.test(item.location || ""),
+      posted:item.publishedAt || item.createdAt || "",url:item.jobUrl || item.applyUrl || "",
+      description:item.descriptionPlain || item.descriptionHtml || item.description || "",
+      source:"Ashby Careers",jobType:item.employmentType || "",tags:item.department?[item.department]:[]
+    });
+  } catch(error) { errors.push("Ashby " + slug + ": " + error.message); }
+}
+
 // Exotel publishes its current vacancies on a public Trakstar careers page.
 // Read the live listing page and each linked job description so roles are not missed
 // simply because the employer does not expose a Greenhouse/Lever board API.
@@ -83,7 +102,7 @@ try {
     const title = listingText.replace(/\s+(?:Bengaluru|Bangalore|Gurugram|Gurgaon|Mumbai|Hyderabad|Delhi|Noida)\b.*$/i, "").trim();
     const loc = (listingText.match(/\b(?:Bengaluru|Bangalore|Gurugram|Gurgaon|Mumbai|Hyderabad|Delhi|Noida)(?:\s*\/\s*(?:Bengaluru|Bangalore|Gurugram|Gurgaon|Mumbai|Hyderabad|Delhi|Noida))?(?:,\s*[A-Za-z ]+)?/i)||[])[0] || "";
     if (!title) continue;
-    if (!/head of customer success|senior customer success|principal engineer \(voice|technical account manager|technical project manager|contact center|contact centre|voice platform|implementation manager|implementation lead/i.test(title)) continue;
+    if (!/head of customer success|senior customer success|principal engineer \(voice|technical account manager|technical project manager|contact center|contact centre|voice platform|implementation|product support engineer|customer success manager/i.test(title)) continue;
     try {
       const detailUrl = "https://exotel.hire.trakstar.com" + path;
       const detail = await (await fetch(detailUrl, {headers:{"user-agent":"GauravJobDesk/1.0"}})).text();
