@@ -39,28 +39,34 @@ async function discover(){
  await load();
 }
 async function addForReview(j){
- if(!j||!j.title){alert("This vacancy could not be loaded. Reload Live discovery and try again.");return}
+ if(!j||!j.title)throw new Error("Vacancy details are missing. Reload the job feed.");
  let a=get("gj_tracker",[]);
- if(sb&&user){
-  try{const {data:row,error}=await sb.from("user_workspace").select("jobs,tracker").eq("user_id",user.id).maybeSingle();if(error)throw error;if(row&&Array.isArray(row.tracker)){const cloud=row.tracker;a=[...cloud,...a.filter(x=>!cloud.some(y=>(y.jobId||y.id||y.url)===(x.jobId||x.id||x.url)))];}}
-  catch(e){console.warn("Cloud queue merge failed; retaining this device's queue",e)}
- }
- const exists=a.some(x=>(x.jobId&&x.jobId===j.id)||(x.id&&x.id===j.id)||(x.url&&j.url&&x.url===j.url));
+ const key=x=>String(x.jobId||x.id||x.url||((x.company||"")+"|"+(x.title||"")));
+ const incoming=String(j.id||j.url||((j.company||"")+"|"+j.title));
+ const exists=a.some(x=>key(x)===incoming||(j.url&&x.url===j.url));
  if(exists){
-  localStorage.setItem("gj_tracker",JSON.stringify(a));
-  document.querySelectorAll("#nav button").forEach(x=>{x.classList.toggle("active",x.dataset.extra==="approvals")});
-  approvalsPanel();alert("This vacancy is already in the approval queue.");return;
+  document.querySelectorAll("#nav button").forEach(x=>x.classList.toggle("active",x.dataset.extra==="approvals"));
+  approvalsPanel();
+  alert("This vacancy is already in your approval queue.");
+  return;
  }
- a.push({jobId:j.id||j.url||[j.company,j.title].join("|"),title:j.title,company:j.company,status:"Pending approval",date:new Date().toLocaleDateString("en-IN"),note:"",url:j.url||"",description:j.description||"",fitScore:j.fitScore||0,matchedSkills:j.matchedSkills||[],missingSkills:j.missingSkills||[],createdAt:new Date().toISOString()});
+ const item={jobId:j.id||j.url||((j.company||"")+"|"+j.title),title:j.title,company:j.company||"",status:"Pending approval",date:new Date().toLocaleDateString("en-IN"),note:"",url:j.url||"",description:j.description||"",fitScore:j.fitScore||0,matchedSkills:j.matchedSkills||[],missingSkills:j.missingSkills||[],createdAt:new Date().toISOString()};
+ a.push(item);
+ // Persist and render first: cloud availability must never block the review workflow.
  localStorage.setItem("gj_tracker",JSON.stringify(a));
- if(sb&&user){
-  const payload={user_id:user.id,jobs:get("gj_jobs",[]),tracker:a,updated_at:new Date().toISOString()};
-  const {error}=await sb.from("user_workspace").upsert(payload,{onConflict:"user_id"});
-  if(error)console.error("Approval saved on this device; cloud sync failed:",error.message);
- }
- document.querySelectorAll("#nav button").forEach(x=>{x.classList.toggle("active",x.dataset.extra==="approvals")});
+ document.querySelectorAll("#nav button").forEach(x=>x.classList.toggle("active",x.dataset.extra==="approvals"));
  approvalsPanel();
- alert("Added to Approvals. Review the CV and vacancy before proceeding. No application has been submitted.");
+ const status=$("#approvalMessage");
+ if(sb&&user){
+  try{
+   const payload={user_id:user.id,jobs:get("gj_jobs",[]),tracker:a,updated_at:new Date().toISOString()};
+   const {error}=await sb.from("user_workspace").upsert(payload,{onConflict:"user_id"});
+   if(error)throw error;
+  }catch(err){
+   console.error("Approval saved locally but cloud sync failed",err);
+   const box=$("#approvalList");if(box){const n=document.createElement("p");n.className="small muted";n.textContent="Saved on this device. Cloud sync is temporarily unavailable; use Cloud sync → Sync now when connectivity returns.";box.prepend(n)}
+  }
+ }
 }
 function roleCV(j){
  const skills=[
