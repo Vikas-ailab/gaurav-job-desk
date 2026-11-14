@@ -5,7 +5,39 @@ const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&g
 function nav(label,key){let b=document.createElement("button");b.textContent=label;b.dataset.extra=key;$("#nav").appendChild(b)}
 nav("Live discovery","discover");nav("Approvals","approvals");nav("Daily analytics","analytics");nav("Cloud sync","cloud");
 $("#nav").addEventListener("click",e=>{let b=e.target.closest("[data-extra]");if(!b)return;e.preventDefault();e.stopImmediatePropagation();document.querySelectorAll("#nav button").forEach(x=>x.classList.remove("active"));b.classList.add("active");b.dataset.extra==="discover"?discover():b.dataset.extra==="approvals"?approvalsPanel():b.dataset.extra==="analytics"?analyticsPanel():cloudPanel()});
-async function discover(){let m=$("#main");m.innerHTML='<div class="heading"><div><h2>Live job discovery</h2><p>Active openings from connected public employer feeds.</p></div><button class="btn secondary" id="reloadFeed">Reload</button></div><div id="feedMeta" class="notice">Loading…</div><div id="feedList"></div>';async function load(){try{let r=await fetch("./jobs.json?ts="+Date.now());if(!r.ok)throw Error("No feed published yet");let d=await r.json();$("#feedMeta").textContent="Last refreshed: "+(d.meta?.lastRefreshed||"unknown")+" · Sources: "+(d.meta?.sourcesChecked||"none")+" · "+(d.jobs||[]).length+" matching listings";$("#feedList").innerHTML=(d.jobs||[]).map(j=>'<article class="job"><div class="row"><div><h3>'+esc(j.title)+'</h3><div class="muted">'+esc(j.company)+' · '+esc(j.location)+'</div></div><b class="score">'+esc(j.fitScore)+'/100</b></div><div class="tags"><span class="tag">'+esc(j.workMode)+'</span><span class="tag">'+esc(j.source)+'</span><span class="tag">'+esc(j.posted)+'</span><span class="tag">'+(j.mustHavePass===null?'Must-have gate not assessed':(j.mustHavePass?'Must-have gate passed':'Must-have gate failed'))+'</span></div><p class="small">'+esc(j.description||"").slice(0,320)+'</p><p class="small muted">Matched: '+esc((j.matchedSkills||[]).join(", ")||"None")+' · Missing must-haves: '+esc((j.missingSkills||[]).join(", ")||"Not assessed")+'</p><div class="actions"><a class="btn" target="_blank" rel="noopener" href="'+esc(j.url)+'">Original listing ↗</a><button class="btn secondary" data-savejob="'+esc(j.id)+'">Save</button><button class="btn" data-reviewjob="'+esc(j.id)+'">Review for approval</button></div><p class="small muted">Source: '+esc(j.source)+' · Confirm vacancy on employer site before applying.</p></article>').join("")||'<div class="card empty">No matching vacancies found. Configure employer ATS board IDs in job-sources.json.</div>'}catch(e){$("#feedMeta").textContent="Feed unavailable: "+e.message+" · Configure and run the scheduled workflow."}}$("#reloadFeed").onclick=load;await load();$("#feedList").addEventListener("click",e=>{let rb=e.target.closest("[data-reviewjob]");if(rb){fetch("./jobs.json").then(r=>r.json()).then(d=>{let j=(d.jobs||[]).find(x=>String(x.id)===rb.dataset.reviewjob);if(j)addForReview(j)});return}let b=e.target.closest("[data-savejob]");if(!b)return;fetch("./jobs.json").then(r=>r.json()).then(d=>{let j=(d.jobs||[]).find(x=>String(x.id)===b.dataset.savejob);if(!j)return;let a=get("gj_jobs",[]);if(!a.some(x=>x.id===j.id))a.push(j);localStorage.setItem("gj_jobs",JSON.stringify(a));alert("Saved. No application was submitted.")})})}
+async function discover(){
+ const m=$("#main");let feedJobs=[];
+ m.innerHTML='<div class="heading"><div><h2>Live job discovery</h2><p>Active openings from connected public employer feeds.</p></div><button class="btn secondary" id="reloadFeed" type="button">Reload</button></div><div id="feedMeta" class="notice" role="status">Loading vacancies…</div><div id="feedList"></div>';
+ const meta=$("#feedMeta"),list=$("#feedList");
+ async function load(){
+  meta.textContent="Loading vacancies…";list.innerHTML="";
+  try{
+   const r=await fetch("./jobs.json?refresh="+Date.now(),{cache:"no-store"});
+   if(!r.ok)throw new Error("Job feed returned HTTP "+r.status);
+   const d=await r.json();
+   if(!d||!Array.isArray(d.jobs))throw new Error("The published job feed has an unexpected format.");
+   feedJobs=d.jobs;
+   meta.textContent="Last refreshed: "+(d.meta?.lastRefreshed||"unknown")+" · Sources: "+(d.meta?.sourcesChecked||"none")+" · "+feedJobs.length+" matching listings";
+   list.innerHTML=feedJobs.map((j,i)=>'<article class="job"><div class="row"><div><h3>'+esc(j.title)+'</h3><div class="muted">'+esc(j.company)+' · '+esc(j.location)+'</div></div><b class="score">'+esc(j.fitScore)+'/100</b></div><div class="tags"><span class="tag">'+esc(j.workMode)+'</span><span class="tag">'+esc(j.source)+'</span><span class="tag">'+esc(j.posted)+'</span><span class="tag">'+(j.mustHavePass===null?'Must-have gate not assessed':(j.mustHavePass?'Must-have gate passed':'Must-have gate failed'))+'</span></div><p class="small">'+esc(j.description||"").slice(0,320)+'</p><p class="small muted">Matched: '+esc((j.matchedSkills||[]).join(", ")||"None")+' · Missing: '+esc((j.missingSkills||[]).join(", ")||"Not assessed")+'</p><div class="actions"><a class="btn secondary" target="_blank" rel="noopener" href="'+esc(j.url||"#")+'">Original listing ↗</a><button class="btn secondary" type="button" data-save-index="'+i+'">Save</button><button class="btn" type="button" data-review-index="'+i+'">Review for approval</button></div><p class="small muted">Source: '+esc(j.source)+' · Verify vacancy on employer site before applying.</p></article>').join("")||'<div class="card empty">No matching vacancies found in the published feed.</div>';
+  }catch(err){feedJobs=[];meta.textContent="Could not load vacancies: "+(err?.message||String(err))+". Tap Reload to retry. If this continues, the published feed needs attention.";list.innerHTML='<div class="card empty">The job feed is unavailable. Your saved tracker and approval queue have not been deleted.</div>';console.error("Live discovery feed load failed",err)}
+ }
+ $("#reloadFeed").onclick=load;
+ list.onclick=async e=>{
+  const review=e.target.closest("button[data-review-index]");
+  if(review){
+   review.disabled=true;const old=review.textContent;review.textContent="Adding…";
+   try{const j=feedJobs[Number(review.dataset.reviewIndex)];if(!j)throw new Error("This vacancy is no longer in the loaded feed. Tap Reload and try again.");await addForReview(j)}
+   catch(err){console.error("Review for approval failed",err);alert("Could not add this vacancy for approval: "+(err?.message||String(err))+". Your existing queue is unchanged. Please retry.");}
+   finally{review.disabled=false;review.textContent=old}
+   return;
+  }
+  const save=e.target.closest("button[data-save-index]");if(!save)return;
+  const j=feedJobs[Number(save.dataset.saveIndex)];if(!j){alert("Vacancy no longer available. Tap Reload.");return}
+  const a=get("gj_jobs",[]);if(!a.some(x=>(x.id&&x.id===j.id)||(x.url&&j.url&&x.url===j.url))){a.push(j);localStorage.setItem("gj_jobs",JSON.stringify(a))}
+  save.textContent="Saved";save.disabled=true;
+ };
+ await load();
+}
 async function addForReview(j){
  if(!j||!j.title){alert("This vacancy could not be loaded. Reload Live discovery and try again.");return}
  let a=get("gj_tracker",[]);
