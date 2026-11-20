@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastRefreshed": "2026-11-20T16:34:58.621Z",
+    "lastRefreshed": "2026-11-20T22:48:48.977Z",
     "sourcesChecked": "Lever:Brillio, Ashby:Toku, Ashby:Interface.ai, Ashby:Sarvam, Exotel official careers (Trakstar), Arbeitnow, Arbeitnow, Arbeitnow, Remotive (6-hour cache)",
     "sourceErrors": [],
     "listingCount": 13,
@@ -28,7 +28,7 @@
         "SLA"
       ],
       "posted": "",
-      "checkedAt": "2026-11-20T16:34:54.600Z",
+      "checkedAt": "2026-11-20T22:48:45.285Z",
       "fitScore": 64,
       "scoreBreakdown": {
         "technical": 3,
@@ -66,7 +66,7 @@
         "Webhooks"
       ],
       "posted": "",
-      "checkedAt": "2026-11-20T16:34:54.600Z",
+      "checkedAt": "2026-11-20T22:48:45.285Z",
       "fitScore": 59,
       "scoreBreakdown": {
         "technical": 3,
@@ -104,7 +104,7 @@
         "Project Management"
       ],
       "posted": "",
-      "checkedAt": "2026-11-20T16:34:54.600Z",
+      "checkedAt": "2026-11-20T22:48:45.285Z",
       "fitScore": 70,
       "scoreBreakdown": {
         "technical": 0,
@@ -145,7 +145,7 @@
         "Solution Architecture"
       ],
       "posted": "",
-      "checkedAt": "2026-11-20T16:34:54.600Z",
+      "checkedAt": "2026-11-20T22:48:45.285Z",
       "fitScore": 70,
       "scoreBreakdown": {
         "technical": 0,
@@ -187,7 +187,7 @@
         "IVR"
       ],
       "posted": "",
-      "checkedAt": "2026-11-20T16:34:54.600Z",
+      "checkedAt": "2026-11-20T22:48:45.285Z",
       "fitScore": 70,
       "scoreBreakdown": {
         "technical": 0,
@@ -226,7 +226,7 @@
         "Customer Success"
       ],
       "posted": "",
-      "checkedAt": "2026-11-20T16:34:54.600Z",
+      "checkedAt": "2026-11-20T22:48:45.286Z",
       "fitScore": 70,
       "scoreBreakdown": {
         "technical": 0,
@@ -272,7 +272,7 @@
       "id": "28ce7e4f5cdf9cc97391",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-20T16:34:55.713Z"
+      "checkedAt": "2026-11-20T22:48:46.514Z"
     },
     {
       "title": "Head of Customer Success - India",
@@ -303,7 +303,7 @@
       "id": "e32d664605301ddcedc4",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-20T16:34:56.001Z"
+      "checkedAt": "2026-11-20T22:48:46.776Z"
     },
     {
       "title": "Implementation Engineer",
@@ -332,7 +332,7 @@
       "id": "945213215108c10c3cdc",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-20T16:34:56.315Z"
+      "checkedAt": "2026-11-20T22:48:47.082Z"
     },
     {
       "title": "Principal Engineer (Voice Platform)",
@@ -365,7 +365,7 @@
       "id": "ca65bbe3da5a608a6eb5",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-20T16:34:56.638Z"
+      "checkedAt": "2026-11-20T22:48:47.344Z"
     },
     {
       "title": "Principal Engineer (Voice4AI)",
@@ -398,7 +398,7 @@
       "id": "887051c3419b7d90d7fb",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-20T16:34:56.962Z"
+      "checkedAt": "2026-11-20T22:48:47.604Z"
     },
     {
       "title": "Product Support Engineer",
@@ -429,7 +429,7 @@
       "id": "1e1d248637210f35e134",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-20T16:34:57.237Z"
+      "checkedAt": "2026-11-20T22:48:47.912Z"
     },
     {
       "title": "Senior Customer Success Manager-Africa & SAARC Cluster",
@@ -458,7 +458,7 @@
       "id": "915c15e2ae702fc14c14",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-20T16:34:57.551Z"
+      "checkedAt": "2026-11-20T22:48:48.176Z"
     }
   ]
 }

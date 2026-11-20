@@ -881,6 +881,117 @@
       ],
       "uniqueAvailable": 13,
       "lastUpdatedAt": "2026-11-20T16:34:58.620Z"
+    },
+    "2026-11-21": {
+      "date": "2026-11-21",
+      "jobs": [
+        {
+          "id": "e0c47ebe6f919b262cd8",
+          "title": "L2 Technical Support Lead – SIP and VoIP",
+          "company": "Toku",
+          "url": "https://careers.toku.co/o/l2-technical-support-lead-sip-and-voip/c/new",
+          "location": "Remote – India (Bengaluru eligible)",
+          "firstSeenAt": "2026-11-20T22:48:48.977Z"
+        },
+        {
+          "id": "cfb42ea76cca58851534",
+          "title": "Technical Support Engineer - L2",
+          "company": "Interface.ai",
+          "url": "https://jobs.ashbyhq.com/interface-ai/3cb8c4a6-158b-4e05-90cd-b1df24a814dc",
+          "location": "Remote – Bangalore, India",
+          "firstSeenAt": "2026-11-20T22:48:48.977Z"
+        },
+        {
+          "id": "75d835230237c95373b8",
+          "title": "Technical Project Manager – Contact Center & Voice Bot Delivery",
+          "company": "Exotel",
+          "url": "https://exotel.hire.trakstar.com/jobs/fk0zdgu",
+          "location": "Bengaluru, Karnataka, India",
+          "firstSeenAt": "2026-11-20T22:48:48.977Z"
+        },
+        {
+          "id": "55823206fef7a03f6a1c",
+          "title": "Senior Implementation Consultant, CCAAS",
+          "company": "Sprinklr",
+          "url": "https://sprinklr.wd1.myworkdayjobs.com/en-US/careers/job/India---Karnataka---Bangalore/Sr-Implementation-Consultant_111806-JOB-1",
+          "location": "Bengaluru / Gurugram, India",
+          "firstSeenAt": "2026-11-20T22:48:48.977Z"
+        },
+        {
+          "id": "4076b28d06d6065cd77e",
+          "title": "Sr. Manager - Implementation (CCAAS)",
+          "company": "Sprinklr",
+          "url": "https://sprinklr.wd1.myworkdayjobs.com/en-US/careers/job/Sr-Implementation-Manager_113160-JOB",
+          "location": "Bengaluru / Gurugram, India",
+          "firstSeenAt": "2026-11-20T22:48:48.977Z"
+        },
+        {
+          "id": "7c5fd27d6d7013ddc60f",
+          "title": "Technical Account Manager -3 (Solution Architecture/Solution Consultant)",
+          "company": "Exotel",
+          "url": "https://exotel.hire.trakstar.com/jobs/fk0zzrn/",
+          "location": "Bengaluru / Gurugram, India",
+          "firstSeenAt": "2026-11-20T22:48:48.977Z"
+        },
+        {
+          "id": "28ce7e4f5cdf9cc97391",
+          "title": "Enterprise Customer Success Manager",
+          "company": "Exotel",
+          "url": "https://exotel.hire.trakstar.com/jobs/fk0zntz/",
+          "location": "Bengaluru",
+          "firstSeenAt": "2026-11-20T22:48:48.977Z"
+        },
+        {
+          "id": "e32d664605301ddcedc4",
+          "title": "Head of Customer Success - India",
+          "company": "Exotel",
+          "url": "https://exotel.hire.trakstar.com/jobs/fk0z8rm/",
+          "location": "Bengaluru/Gurugram",
+          "firstSeenAt": "2026-11-20T22:48:48.977Z"
+        },
+        {
+          "id": "945213215108c10c3cdc",
+          "title": "Implementation Engineer",
+          "company": "Exotel",
+          "url": "https://exotel.hire.trakstar.com/jobs/fk0zndh/",
+          "location": "Bengaluru",
+          "firstSeenAt": "2026-11-20T22:48:48.977Z"
+        },
+        {
+          "id": "ca65bbe3da5a608a6eb5",
+          "title": "Principal Engineer (Voice Platform)",
+          "company": "Exotel",
+          "url": "https://exotel.hire.trakstar.com/jobs/fk0znz6/",
+          "location": "Bengaluru",
+          "firstSeenAt": "2026-11-20T22:48:48.977Z"
+        },
+        {
+          "id": "887051c3419b7d90d7fb",
+          "title": "Principal Engineer (Voice4AI)",
+          "company": "Exotel",
+          "url": "https://exotel.hire.trakstar.com/jobs/fk0pefg/",
+          "location": "Bengaluru",
+          "firstSeenAt": "2026-11-20T22:48:48.977Z"
+        },
+        {
+          "id": "1e1d248637210f35e134",
+          "title": "Product Support Engineer",
+          "company": "Exotel",
+          "url": "https://exotel.hire.trakstar.com/jobs/fk0ziun/",
+          "location": "Bengaluru",
+          "firstSeenAt": "2026-11-20T22:48:48.977Z"
+        },
+        {
+          "id": "915c15e2ae702fc14c14",
+          "title": "Senior Customer Success Manager-Africa & SAARC Cluster",
+          "company": "Exotel",
+          "url": "https://exotel.hire.trakstar.com/jobs/fk0zlan/",
+          "location": "Gurugram/Bengaluru",
+          "firstSeenAt": "2026-11-20T22:48:48.977Z"
+        }
+      ],
+      "uniqueAvailable": 13,
+      "lastUpdatedAt": "2026-11-20T22:48:48.977Z"
     }
   }
 }
