@@ -1321,10 +1321,18 @@
           "url": "https://exotel.hire.trakstar.com/jobs/fk0zlan/",
           "location": "Gurugram/Bengaluru",
           "firstSeenAt": "2026-11-24T03:54:30.654Z"
+        },
+        {
+          "id": "9d1272a45c138eaaed38",
+          "title": "Product Support Engineer (Bangalore)",
+          "company": "Exotel",
+          "url": "https://exotel.hire.trakstar.com/jobs/fk0zhai/",
+          "location": "Bangalore",
+          "firstSeenAt": "2026-11-24T14:28:53.172Z"
         }
       ],
-      "uniqueAvailable": 13,
-      "lastUpdatedAt": "2026-11-24T03:54:30.654Z"
+      "uniqueAvailable": 14,
+      "lastUpdatedAt": "2026-11-24T14:28:53.172Z"
     }
   }
 }
