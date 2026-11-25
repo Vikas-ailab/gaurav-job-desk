@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastRefreshed": "2026-11-24T23:36:19.833Z",
+    "lastRefreshed": "2026-11-25T05:41:30.109Z",
     "sourcesChecked": "Lever:Brillio, Ashby:Toku, Ashby:Interface.ai, Ashby:Sarvam, Exotel official careers (Trakstar), Arbeitnow, Arbeitnow, Arbeitnow, Remotive (6-hour cache)",
     "sourceErrors": [],
     "listingCount": 13,
@@ -28,7 +28,7 @@
         "SLA"
       ],
       "posted": "",
-      "checkedAt": "2026-11-24T23:36:16.829Z",
+      "checkedAt": "2026-11-25T05:41:26.295Z",
       "fitScore": 64,
       "scoreBreakdown": {
         "technical": 3,
@@ -66,7 +66,7 @@
         "Webhooks"
       ],
       "posted": "",
-      "checkedAt": "2026-11-24T23:36:16.829Z",
+      "checkedAt": "2026-11-25T05:41:26.296Z",
       "fitScore": 59,
       "scoreBreakdown": {
         "technical": 3,
@@ -104,7 +104,7 @@
         "Project Management"
       ],
       "posted": "",
-      "checkedAt": "2026-11-24T23:36:16.830Z",
+      "checkedAt": "2026-11-25T05:41:26.296Z",
       "fitScore": 70,
       "scoreBreakdown": {
         "technical": 0,
@@ -145,7 +145,7 @@
         "Solution Architecture"
       ],
       "posted": "",
-      "checkedAt": "2026-11-24T23:36:16.830Z",
+      "checkedAt": "2026-11-25T05:41:26.296Z",
       "fitScore": 70,
       "scoreBreakdown": {
         "technical": 0,
@@ -187,7 +187,7 @@
         "IVR"
       ],
       "posted": "",
-      "checkedAt": "2026-11-24T23:36:16.830Z",
+      "checkedAt": "2026-11-25T05:41:26.296Z",
       "fitScore": 70,
       "scoreBreakdown": {
         "technical": 0,
@@ -226,7 +226,7 @@
         "Customer Success"
       ],
       "posted": "",
-      "checkedAt": "2026-11-24T23:36:16.830Z",
+      "checkedAt": "2026-11-25T05:41:26.296Z",
       "fitScore": 70,
       "scoreBreakdown": {
         "technical": 0,
@@ -272,7 +272,7 @@
       "id": "28ce7e4f5cdf9cc97391",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-24T23:36:17.640Z"
+      "checkedAt": "2026-11-25T05:41:27.403Z"
     },
     {
       "title": "Head of Customer Success - India",
@@ -303,7 +303,7 @@
       "id": "e32d664605301ddcedc4",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-24T23:36:17.918Z"
+      "checkedAt": "2026-11-25T05:41:27.676Z"
     },
     {
       "title": "Implementation Engineer",
@@ -332,7 +332,7 @@
       "id": "945213215108c10c3cdc",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-24T23:36:18.210Z"
+      "checkedAt": "2026-11-25T05:41:27.943Z"
     },
     {
       "title": "Principal Engineer (Voice Platform)",
@@ -365,7 +365,7 @@
       "id": "ca65bbe3da5a608a6eb5",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-24T23:36:18.443Z"
+      "checkedAt": "2026-11-25T05:41:28.259Z"
     },
     {
       "title": "Principal Engineer (Voice4AI)",
@@ -398,7 +398,7 @@
       "id": "887051c3419b7d90d7fb",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-24T23:36:18.718Z"
+      "checkedAt": "2026-11-25T05:41:28.532Z"
     },
     {
       "title": "Product Support Engineer",
@@ -408,14 +408,14 @@
       "remote": false,
       "posted": "",
       "url": "https://exotel.hire.trakstar.com/jobs/fk0ziun/",
-      "description": "Product Support Engineer at Exotel Techcom Pvt Ltd exotel.in Website Back to all openings See all the jobs at Exotel Techcom Pvt Ltd here: http://exotel.recruiterbox.com/jobs Product Support Engineer Bengaluru , Karnataka , India | Growth | Full-time Apply with Linkedin Apply with Indeed Apply About the Role As a Product Support Engineer, you will be the first line of technical engagement for customers using Exotel’s cloud telephony, communication APIs, and customer engagement platform. Your role is critical in ensuring customers receive timely, accurate, and empathetic support while you help them troubleshoot issues, understand product behavior, and get the best out of Exotel’s solutions. This position is perfect for someone who enjoys diving into technical details, communicating clearly with customers, and collaborating with internal teams to improve overall customer satisfaction. Key Responsibilities Customer Issue Resolution Serve as the primary contact for customers via email, phone, and ticketing systems for Level 1 inquiries. Diagnose issues related to call flows, APIs, SMS/voice routing, call recordings, and Exotel dashboard functionalities. Perform preliminary investigations such as log checks, configuration reviews, and environment validation. Provide clear, actionable solutions and workarounds within defined SLAs. Technical Troubleshooting Analyze API requests/responses, webhook logs, and common communication protocol issues. Assist customers with setup, configuration, debugging, and best practices. Escalate complex or platform-level problems to L2/L3 teams with complete technical context. Collaboration & Communication Coordinate with engineering, product for bug verification and feature clarifications. Document common issues, solutions, and internal runbooks for knowledge sharing. Contribute to improving support processes and customer experience. Quality & Compliance Ensure consistent adherence to SLA, quality standards, and communication guidelines. Maintain accurate records of issue tracking, escalations, and resolutions. Required Skills & Qualifications Technical Skills Solid understanding of APIs, JSON, webhooks, HTTP methods. Basic knowledge of networking concepts (DNS, latency, firewalls, ports). Exposure to cloud platforms and debugging tools like Postman, cURL, Kibana, or similar. Understanding of telephony or communication platforms is a bonus. Understanding of VSIP (Voice SIP) protocols, SIP call flows, and related troubleshooting. Soft Skills Excellent written and verbal communication. Strong analytical thinking with attention to detail. Ability to remain calm, structured, and solution-oriented under pressure. Customer-first attitude with empathy and clarity in problem-solving. Preferred Qualifications Experience supporting SaaS or communication-platform products. Familiarity with Exotel or similar platforms (Knowlarity, Twilio, Kaleyra, etc.). Ability to create knowledge-base articles or runbooks. What You Can Expect Hands-on learning across cloud communication systems, APIs, and telephony workflows. Opportunities to collaborate with product, engineering, and customer success teams. A fast-paced environment where your contribution directly impacts customer delight. Apply Apply with Linkedin Apply with Indeed Apply for this opening at ?apply=true Back to all openings See all the jobs at Exotel Techcom Pvt Ltd here: http://exotel.recruiterbox.com/jobs Fetching your Linkedin profile ... Application Form Apply with Linkedin Apply with Indeed First Name * Last Name Email * Phone * Resume * What is your current CTC? * What is your Expected CTC? * What is your notice period? * How many years of experience do you have with SAAS companies? * How many years of experience do you have in API Integrations? * Thanks for your time Apply for this opening Apply with Linkedin Apply with Indeed --> Share this opening with friends powered by Trakstar Hire",
+      "description": "Product Support Engineer at Exotel Techcom Pvt Ltd exotel.in Website Back to all openings See all the jobs at Exotel Techcom Pvt Ltd here: http://exotel.recruiterbox.com/jobs Product Support Engineer Bengaluru , Karnataka , India | Growth | Full-time Apply with Linkedin Apply with Indeed Apply About the Role As a Product Support Engineer, you will be the first line of technical engagement for customers using Exotel’s cloud telephony, communication APIs, and customer engagement platform. Your role is critical in ensuring customers receive timely, accurate, and empathetic support while you help them troubleshoot issues, understand product behavior, and get the best out of Exotel’s solutions. This position is perfect for someone who enjoys diving into technical details, communicating clearly with customers, and collaborating with internal teams to improve overall customer satisfaction. Key Responsibilities Customer Issue Resolution 1 to 6 years of experience in serving as the primary contact for customers via email, phone, and ticketing systems for Level 1 inquiries. Diagnose issues related to call flows, APIs, SMS/voice routing, call recordings, and Exotel dashboard functionalities. Perform preliminary investigations such as log checks, configuration reviews, and environment validation. Provide clear, actionable solutions and workarounds within defined SLAs. Technical Troubleshooting Analyze API requests/responses, webhook logs, and common communication protocol issues. Assist customers with setup, configuration, debugging, and best practices. Escalate complex or platform-level problems to L2/L3 teams with complete technical context. Collaboration & Communication Coordinate with engineering, product for bug verification and feature clarifications. Document common issues, solutions, and internal runbooks for knowledge sharing. Contribute to improving support processes and customer experience. Quality & Compliance Ensure consistent adherence to SLA, quality standards, and communication guidelines. Maintain accurate records of issue tracking, escalations, and resolutions. Required Skills & Qualifications Technical Skills Solid understanding of APIs, JSON, webhooks, HTTP methods. Basic knowledge of networking concepts (DNS, latency, firewalls, ports). Exposure to cloud platforms and debugging tools like Postman, cURL, Kibana, or similar. Understanding of telephony or communication platforms is a bonus. Understanding of VSIP (Voice SIP) protocols, SIP call flows, and related troubleshooting. Soft Skills Excellent written and verbal communication. Strong analytical thinking with attention to detail. Ability to remain calm, structured, and solution-oriented under pressure. Customer-first attitude with empathy and clarity in problem-solving. Preferred Qualifications Experience supporting SaaS or communication-platform products. Familiarity with Exotel or similar platforms (Knowlarity, Twilio, Kaleyra, etc.). Ability to create knowledge-base articles or runbooks. What You Can Expect Hands-on learning across cloud communication systems, APIs, and telephony workflows. Opportunities to collaborate with product, engineering, and customer success teams. A fast-paced environment where your contribution directly impacts customer delight. Apply Apply with Linkedin Apply with Indeed Apply for this opening at ?apply=true Back to all openings See all the jobs at Exotel Techcom Pvt Ltd here: http://exotel.recruiterbox.com/jobs Fetching your Linkedin profile ... Application Form Apply with Linkedin Apply with Indeed First Name * Last Name Email * Phone * Resume * What is your current CTC? * What is your Expected CTC? * What is your notice period? * How many years of experience do you have with SAAS companies? * How many years of experience do you have in API Integrations? * Thanks for your time Apply for this opening Apply with Linkedin Apply with Indeed --> Share this opening with friends powered by Trakstar Hire",
       "source": "Exotel Careers",
       "jobType": "Full-time",
       "tags": [],
-      "fitScore": 57,
+      "fitScore": 63,
       "scoreBreakdown": {
         "technical": 3,
-        "experience": 14,
+        "experience": 20,
         "seniority": 8,
         "domain": 12,
         "location": 10,
@@ -429,7 +429,7 @@
       "id": "1e1d248637210f35e134",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-24T23:36:19.004Z"
+      "checkedAt": "2026-11-25T05:41:28.802Z"
     },
     {
       "title": "Product Support Engineer (Bangalore)",
@@ -458,7 +458,7 @@
       "id": "9d1272a45c138eaaed38",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-24T23:36:19.241Z"
+      "checkedAt": "2026-11-25T05:41:29.108Z"
     }
   ]
 }
