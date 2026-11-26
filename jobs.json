@@ -1,9 +1,9 @@
 {
   "meta": {
-    "lastRefreshed": "2026-11-26T00:17:31.714Z",
+    "lastRefreshed": "2026-11-26T08:43:54.493Z",
     "sourcesChecked": "Lever:Brillio, Ashby:Toku, Ashby:Interface.ai, Ashby:Sarvam, Exotel official careers (Trakstar), Arbeitnow, Arbeitnow, Arbeitnow, Remotive (6-hour cache)",
     "sourceErrors": [],
-    "listingCount": 13,
+    "listingCount": 6,
     "windowDays": 90,
     "locationRule": "Bengaluru office/hybrid/remote; outside Bengaluru fully remote India or worldwide only",
     "note": "Published by source API at collection time. Always open the original employer or job-board listing to confirm it remains accepting applications."
@@ -28,7 +28,7 @@
         "SLA"
       ],
       "posted": "",
-      "checkedAt": "2026-11-26T00:17:28.087Z",
+      "checkedAt": "2026-11-26T08:42:33.300Z",
       "fitScore": 64,
       "scoreBreakdown": {
         "technical": 3,
@@ -66,7 +66,7 @@
         "Webhooks"
       ],
       "posted": "",
-      "checkedAt": "2026-11-26T00:17:28.087Z",
+      "checkedAt": "2026-11-26T08:42:33.300Z",
       "fitScore": 59,
       "scoreBreakdown": {
         "technical": 3,
@@ -104,7 +104,7 @@
         "Project Management"
       ],
       "posted": "",
-      "checkedAt": "2026-11-26T00:17:28.087Z",
+      "checkedAt": "2026-11-26T08:42:33.301Z",
       "fitScore": 70,
       "scoreBreakdown": {
         "technical": 0,
@@ -145,7 +145,7 @@
         "Solution Architecture"
       ],
       "posted": "",
-      "checkedAt": "2026-11-26T00:17:28.087Z",
+      "checkedAt": "2026-11-26T08:42:33.301Z",
       "fitScore": 70,
       "scoreBreakdown": {
         "technical": 0,
@@ -187,7 +187,7 @@
         "IVR"
       ],
       "posted": "",
-      "checkedAt": "2026-11-26T00:17:28.087Z",
+      "checkedAt": "2026-11-26T08:42:33.301Z",
       "fitScore": 70,
       "scoreBreakdown": {
         "technical": 0,
@@ -226,7 +226,7 @@
         "Customer Success"
       ],
       "posted": "",
-      "checkedAt": "2026-11-26T00:17:28.088Z",
+      "checkedAt": "2026-11-26T08:42:33.301Z",
       "fitScore": 70,
       "scoreBreakdown": {
         "technical": 0,
@@ -242,223 +242,6 @@
       "id": "7c5fd27d6d7013ddc60f",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page"
-    },
-    {
-      "title": "Enterprise Customer Success Manager",
-      "company": "Exotel",
-      "location": "Bengaluru/Gurugram",
-      "workMode": "On-site/Hybrid",
-      "remote": false,
-      "posted": "",
-      "url": "https://exotel.hire.trakstar.com/jobs/fk0zntz/",
-      "description": "Enterprise Customer Success Manager at Exotel Techcom Pvt Ltd exotel.in Website Back to all openings See all the jobs at Exotel Techcom Pvt Ltd here: http://exotel.recruiterbox.com/jobs Enterprise Customer Success Manager Bengaluru/Gurugram | Growth | Full-time Apply with Linkedin Apply with Indeed Apply About Exotel: Exotel is a leading cloud communications platform that helps businesses transform how they engage with their customers. Our solutions power enterprise conversations across voice, messaging, and digital channels, enabling businesses to deliver seamless, reliable, and scalable customer experiences. We work with enterprises across industries, helping them solve complex communication challenges through cloud technology, APIs, and innovative communication solutions. At Exotel, we operate at the intersection of communications, technology, and customer experience, helping businesses build better customer interactions at scale. About the Role: We are looking for an Enterprise Customer Success Manager to manage and grow relationships with some of Exotel’s largest enterprise customers. In this role, you will own the customer relationship across the post-sales lifecycle - from implementation and solution launches to product adoption, renewals, and account expansion. You will work closely with customer stakeholders and internal teams to ensure successful deployments, resolve escalations, and identify opportunities to grow revenue from existing accounts. This is a customer-facing, commercially accountable role that combines technical understanding, relationship management, project coordination, and revenue ownership. The ideal candidate will have experience in SaaS customer success, technical account management, or enterprise account management, with a strong understanding of APIs and integrations. Experience managing customers in banking, financial services, or insurance (BFSI) will be an added advantage. What will you do: 1. Revenue Ownership and Account Growth Own monthly and quarterly revenue targets for assigned accounts, driving renewals, upselling, and cross-selling opportunities. Identify opportunities to expand product adoption and increase revenue within existing customer accounts. Collaborate with Sales teams to develop account growth strategies and convert expansion opportunities into revenue. Lead commercial discussions, negotiate pricing and contract terms, and manage subscription renewals. Proactively identify renewal risks and develop plans to protect and grow existing revenue. 2. Customer Relationship Management Serve as the primary point of contact for assigned enterprise customers, building strong relationships with business, technology, and leadership stakeholders. Understand customer objectives, business challenges, and success criteria, translating them into actionable plans. Drive customer engagement, satisfaction, retention, and long-term value realization. Conduct regular customer reviews and Quarterly Business Reviews (QBRs) to demonstrate value, review progress, and identify growth opportunities. Manage customer expectations proactively and address concerns before they escalate. 3. Technical Account Management Develop a strong understanding of Exotel’s platform, APIs, integrations, and product capabilities. Explain technical concepts and solution capabilities effectively to both business and technical stakeholders. Work with customer engineering teams and Exotel’s internal Product, Engineering, and Support teams to facilitate integrations and resolve technical challenges. Conduct product demonstrations and solution discussions to showcase how Exotel’s capabilities address customer requirements. Help customers diagnose technical issues and coordinate with internal teams to drive resolution. 4. Implementation and Project Management Coordinate customer implementations and solution launches, ensuring alignment on scope, timelines, milestones, and responsibilities. Work across customer teams and internal stakeholders to manage dependencies, track progress, and mitigate delivery risks. Manage multiple customer projects simultaneously, prioritising activities based on urgency, business impact, and customer commitments. Ensure smooth transitions from implementation to ongoing account management and product adoption. Track project outcomes and help customers realise the intended business value from Exotel’s solutions. 5. Escalation Management and Cross-functional Collaboration Own customer escalations and drive timely resolution by coordinating with Support, Engineering, Product, Finance, and other relevant teams. Communicate issues, risks, progress, and resolution plans clearly to customers and internal stakeholders. Partner with Finance and Accounts Receivable teams to resolve billing, payment, and commercial queries. Represent the voice of the customer internally, sharing feedback and recurring pain points to improve products and service delivery. 6. Reporting and Account Governance Ma",
-      "source": "Exotel Careers",
-      "jobType": "Full-time",
-      "tags": [],
-      "fitScore": 67,
-      "scoreBreakdown": {
-        "technical": 3,
-        "experience": 14,
-        "seniority": 15,
-        "domain": 15,
-        "location": 10,
-        "leadership": 10
-      },
-      "matchedSkills": [
-        "SLA"
-      ],
-      "missingSkills": [],
-      "mustHavePass": null,
-      "id": "28ce7e4f5cdf9cc97391",
-      "verified": true,
-      "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-26T00:17:29.128Z"
-    },
-    {
-      "title": "Head of Customer Success - India",
-      "company": "Exotel",
-      "location": "Bengaluru/Gurugram",
-      "workMode": "On-site/Hybrid",
-      "remote": false,
-      "posted": "",
-      "url": "https://exotel.hire.trakstar.com/jobs/fk0z8rm/",
-      "description": "Head of Customer Success - India at Exotel Techcom Pvt Ltd exotel.in Website Back to all openings See all the jobs at Exotel Techcom Pvt Ltd here: http://exotel.recruiterbox.com/jobs Head of Customer Success - India Bengaluru/Gurugram | Growth | Full-time Apply with Linkedin Apply with Indeed Apply About Exotel Exotel is one of Asia’s leading customer communication platforms, helping businesses build better customer experiences through cloud-based communication solutions. We bring together CPaaS, CCaaS, and Voice AI to help businesses manage customer conversations across voice and digital channels. Our platform powers billions of customer interactions globally , enabling enterprises to connect with their customers at scale, automate conversations, and deliver seamless experiences. With a strong presence across India, APAC, the Middle East, and Africa , Exotel works with thousands of businesses across industries. We are building the next generation of AI-powered customer communication, where intelligent voice and digital experiences become an integral part of how businesses engage with their customers. At Exotel, you’ll work in a fast-paced, high-ownership environment alongside teams across Product, Engineering, Sales, Marketing, and Customer Success, solving complex problems at scale and shaping the future of customer communication. Job Location: Gurugram/ Bengaluru About the Role You own retention and expansion of Exotel's domestic enterprise business — a large, revenue-critical share of our named accounts, already paying us in at least one SKU across CPaaS, CCaaS, and Voice AI / voice-bot streaming. The first job is to defend that base. These accounts are already running revenue-critical infrastructure on Exotel, and protecting and expanding that, before anything else, is what this role is accountable for. The second job is the whitespace inside this base. The average paying account today uses only a fraction of our full portfolio, which spans CPaaS, CCaaS, and Voice AI. Most of these customers are proof the product works — they just haven't been sold the rest of what we do. This role owns both: hold the base we've already won, and grow their footprint from there. This is not a support role and not a coordination role. You are the single named owner of Net Revenue Retention for enterprise India, and the frontline escalation point when anything in the customer's experience (delivery, support, billing, product, or platform) breaks. When a strategic account has a problem that spans multiple internal teams, you run it end-to-end until it's resolved, not until it's routed. What You Own 1. Retention & Expansion — the revenue mandate Own NRR and GRR for the full domestic enterprise book, reported and defended monthly against target. Build the account-level whitespace model that turns average SKU attach — currently ~1.5 products per paying account — into a prioritised, quota-bearing cross-sell funnel across CPaaS (voice, SMS/WhatsApp/RCS), CCaaS (ECC/Harmony), and Voice AI/voice-bot products, focused on the accounts we've already converted. Own account tiering and segmentation (strategic / growth / maintain) so QBR depth, executive coverage, and expansion effort are allocated by risk and headroom, not by who escalates loudest. Partner with Sales leadership on renewal forecasting and the handoff line between net-new logo acquisition and install-base expansion, so no account falls into the gap between the two. 2. Customer Governance & Executive Engagement Own the QBR program end-to-end: cadence, content standard, and executive attendance, Build and maintain an account health-score model (usage depth, support load, sentiment, commercial trajectory) that flags churn or expansion risk before it shows up in a renewal conversation. Act as the named executive sponsor for the top tier of strategic accounts. 3. Escalation Ownership & Cross-Functional Orchestration Be the single accountable owner of enterprise customer escalations — running point across Delivery, Support, Finance, Tech, and Product until resolution, with authority to pull the right people into a room. Define and enforce a severity framework and SLA for escalations, so \"pillar to post\" becomes a repeatable operating process with clear ownership at each stage, not a hero act each time. Build the structured feedback loop from escalations and expansion conversations into the product roadmap — this team sees where the product is costing revenue before anyone else in the company does. 4. Team Leadership Hire, structure, and lead the enterprise Customer Experience team (Account/Relationship Managers and CSMs) — define role charters, account/territory assignment, and career paths. Run the team's operating cadence: weekly pipeline and risk reviews, monthly business reviews, and a quarterly NRR readout to company leadership. How the role will be measured &lt;colgroup&gt;&lt;col style=\"width: 32.7391%;\" width=\"222\"&gt;&lt;col style=\"width: 57.3744%;\" width=\"848\"&gt;&l",
-      "source": "Exotel Careers",
-      "jobType": "Full-time",
-      "tags": [],
-      "fitScore": 60,
-      "scoreBreakdown": {
-        "technical": 3,
-        "experience": 14,
-        "seniority": 15,
-        "domain": 8,
-        "location": 10,
-        "leadership": 10
-      },
-      "matchedSkills": [
-        "SLA"
-      ],
-      "missingSkills": [],
-      "mustHavePass": true,
-      "id": "e32d664605301ddcedc4",
-      "verified": true,
-      "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-26T00:17:29.441Z"
-    },
-    {
-      "title": "Implementation Engineer",
-      "company": "Exotel",
-      "location": "Bengaluru",
-      "workMode": "On-site/Hybrid",
-      "remote": false,
-      "posted": "",
-      "url": "https://exotel.hire.trakstar.com/jobs/fk0zndh/",
-      "description": "Implementation Engineer at Exotel Techcom Pvt Ltd exotel.in Website Back to all openings See all the jobs at Exotel Techcom Pvt Ltd here: http://exotel.recruiterbox.com/jobs Implementation Engineer Bengaluru , Karnataka , India | Customer Operations | Full-time Apply with Linkedin Apply with Indeed Apply About Exotel Exotel is the emerging market’s leading full stack customer engagement platform and business-focused virtual telecom operator. Exotel has also recently received a virtual telecom operator license to offer cost-effective end-to-end VoIP telephony services, making the company a 100% compliant cloud calling operator. Exotel was founded in 2011 and has an impressive cloud-based product suite that drives 70 million conversations every day for more than 6000 businesses in India, Southeast Asia, the Middle East, and Africa. Today, the omnichannel contact centre, communication API suite, and conversational AI platform from Exotel help some of the fastest-growing businesses in emerging countries manage their customer engagement. They have a $50 million ARR and a $100 million Series D funding round. Exotel has won The ET StartUp Awards 2022 under the Comeback Kid category. What will you do? Assist in the installation and configuration of contact center software solutions, including IVR, ACD, CTI, and CRM systems Troubleshoot software performance, reliability, and scalability issues under the guidance of senior team members Assist in providing training to end-users on the use of contact center software solutions Collaborate with other members of the contact center team, including software developers, quality assurance analysts, and project managers Develop and maintain software documentation, including installation and configuration guides, troubleshooting manuals, and training materials Identify opportunities for process improvement and work with the team to implement solutions Ensure that all software installation and configuration follows established standards and best practices What are we looking for? 2 - 6 years of experience in an Implementation role Strong interest in software execution, preferably in a contact center environment Familiarity with Linux and Windows operating systems Excellent problem-solving skills and attention to detail Strong communication and collaboration skills Ability to work independently and manage multiple tasks simultaneously Basic to intermediate knowledge of working with Linux OS Basics of networking concepts (LAN, OSI, Topology, IPv4, IPv6, etc) Basics of database concepts - MySQL, Postgres, etc. Should be willing to learn telephony concepts (PRI, VOIP, etc.) Good listener with very good communication skills. Exceptional attention to detail and organizational skills. Excellent writing, editing, and proofreading skills. Basic knowledge of HTML and CSS would be an advantage. Apply Apply with Linkedin Apply with Indeed Apply for this opening at ?apply=true Back to all openings See all the jobs at Exotel Techcom Pvt Ltd here: http://exotel.recruiterbox.com/jobs Fetching your Linkedin profile ... Application Form Apply with Linkedin Apply with Indeed First Name * Last Name Email * Phone * Resume * Current Salary * Expected Salary * Notice Period? * Current Location? * Preferred Work Locations? * What is the name of your current organisation? * Thanks for your time Apply for this opening Apply with Linkedin Apply with Indeed --> Share this opening with friends powered by Trakstar Hire",
-      "source": "Exotel Careers",
-      "jobType": "Full-time",
-      "tags": [],
-      "fitScore": 70,
-      "scoreBreakdown": {
-        "technical": 0,
-        "experience": 20,
-        "seniority": 15,
-        "domain": 15,
-        "location": 10,
-        "leadership": 10
-      },
-      "matchedSkills": [],
-      "missingSkills": [],
-      "mustHavePass": null,
-      "id": "945213215108c10c3cdc",
-      "verified": true,
-      "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-26T00:17:29.746Z"
-    },
-    {
-      "title": "Principal Engineer (Voice Platform)",
-      "company": "Exotel",
-      "location": "Bengaluru",
-      "workMode": "On-site/Hybrid",
-      "remote": false,
-      "posted": "",
-      "url": "https://exotel.hire.trakstar.com/jobs/fk0znz6/",
-      "description": "Principal Engineer (Voice Platform) at Exotel Techcom Pvt Ltd exotel.in Website Back to all openings See all the jobs at Exotel Techcom Pvt Ltd here: http://exotel.recruiterbox.com/jobs Principal Engineer (Voice Platform) Bengaluru , Karnataka , India | Tech & Product | Full-time Apply with Linkedin Apply with Indeed Apply About us Exotel is the emerging market’s leading full-stack customer engagement platform and business-focused virtual telecom operator. Founded in 2011, our cloud-based product suite powers over 50 million daily engagements across voice, video, and messaging channels. Trusted by 6,000+ companies across 60+ countries—including India, Southeast Asia, the Middle East, and Africa—Exotel enables unified customer engagement for leading businesses such as Ola, Swiggy, Flipkart, GoJek, Byju’s, HDFC Bank, Zomato, and Urban Company. Our offerings include communication APIs, a modern omnichannel contact centre, and a conversational AI platform hosted on the cloud. We are a Series D company valued at $100 million with $60 million in ARR. What will you do? Influence the product roadmap as a technical leader Exploration and adoption of new technologies to improve system reliability and efficiency. Technical guidance and mentoring to the Project teams on architecture and design. Help enforce and/or tweak SLAs for existing deployments to improve efficiency. Build and improve, and enforce processes to improve efficiency. Build and guide the team for operational excellence. Stakeholder management Mentor junior engineers in the team. What do we look for? Must Haves 8+ years of experience in the VoIP domain. Bachelor's or Master's degree in computer science or equivalent. Solid knowledge of VoIP domain technologies, including SIP, SDP, RTP, RTCP. Solid knowledge of IP networking concepts, including L2/L3 routing, Subnets, VLANs,and NAT traversal. Solid knowledge of network impairments and their impact on call quality. Experience leading project teams to deliver critical software solutions. 6+ years of experience in building high-availability, scalable and fault-tolerant VoIP systems. 4+ years of experience in working with server-side VoIP applications like Asterisk, Kamailio or equivalent 3+ years of experience in working with a major cloud platform like AWS (preferred), GCP, or Azure. 2+ years of experience in the design and development of REST-based microservices. Experience in programming with one of Golang (preferred), Ruby, C/C++ Experience in scripting with shell and Python Experience with data stores such as MySQL, Postgres Good understanding of data structures, multi-threading and concurrency concepts. Proficiency in working in a Linux environment Experience working in Agile SDLC process Strong analytical, problem-solving and troubleshooting skills Excellent written and verbal communication skills Team player, flexible and able to work in a fast-paced environment A \"DevOps\" mindset. You own what you will develop. Good to Have Experience with custom development on Asterisk/Freeswitch/Kamailio/Opensips is a plus Experience with SIPp or any other SIP testing tools Experience with ISDN, WebRTC technologies Experience with Elastic Search queries and visualisation tools like Grafana, Kibana Experience with DevOps tools like Ansible, Jenkins, Terraform, Kubernetes, Git Experience with monitoring frameworks like Nagios, Prometheus Experience with developing Android, iOS-based VoIP clients Experience with Java, JavaScript languages Apply Apply with Linkedin Apply with Indeed Apply for this opening at ?apply=true Back to all openings See all the jobs at Exotel Techcom Pvt Ltd here: http://exotel.recruiterbox.com/jobs Fetching your Linkedin profile ... Application Form Apply with Linkedin Apply with Indeed First Name * Last Name Email * Phone * Resume * Current CTC * Expected CTC * Notice Period * What is your current location? * Describe your experience with VOIP and SIP Development? * Thanks for your time Apply for this opening Apply with Linkedin Apply with Indeed --> Share this opening with friends powered by Trakstar Hire",
-      "source": "Exotel Careers",
-      "jobType": "Full-time",
-      "tags": [],
-      "fitScore": 72,
-      "scoreBreakdown": {
-        "technical": 9,
-        "experience": 20,
-        "seniority": 8,
-        "domain": 15,
-        "location": 10,
-        "leadership": 10
-      },
-      "matchedSkills": [
-        "FreeSWITCH",
-        "Asterisk",
-        "SLA"
-      ],
-      "missingSkills": [],
-      "mustHavePass": true,
-      "id": "ca65bbe3da5a608a6eb5",
-      "verified": true,
-      "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-26T00:17:30.058Z"
-    },
-    {
-      "title": "Principal Engineer (Voice4AI)",
-      "company": "Exotel",
-      "location": "Bengaluru",
-      "workMode": "On-site/Hybrid",
-      "remote": false,
-      "posted": "",
-      "url": "https://exotel.hire.trakstar.com/jobs/fk0pefg/",
-      "description": "Principal Engineer (Voice4AI) at Exotel Techcom Pvt Ltd exotel.in Website Back to all openings See all the jobs at Exotel Techcom Pvt Ltd here: http://exotel.recruiterbox.com/jobs Principal Engineer (Voice4AI) Bengaluru , Karnataka , India | Tech & Product | Full-time Apply with Linkedin Apply with Indeed Apply About us Exotel is the emerging market’s leading full-stack customer engagement platform and business-focused virtual telecom operator. Founded in 2011, our cloud-based product suite powers over 50 million daily engagements across voice, video, and messaging channels. Trusted by 6,000+ companies across 60+ countries—including India, Southeast Asia, the Middle East, and Africa—Exotel enables unified customer engagement for leading businesses such as Ola, Swiggy, Flipkart, GoJek, Byju’s, HDFC Bank, Zomato, and Urban Company. Our offerings include communication APIs, a modern omnichannel contact centre, and a conversational AI platform hosted on the cloud. We are a Series D company valued at $100 million with $60 million in ARR. What will you do? Influence the product roadmap as a technical leader Exploration and adoption of new technologies to improve system reliability and efficiency. Technical guidance and mentoring to the Project teams on architecture and design. Help enforce and/or tweak SLAs for existing deployments to improve efficiency. Build and improve, and enforce processes to improve efficiency. Build and guide the team for operational excellence. Stakeholder management Mentor junior engineers in the team. What do we look for? Must Haves 8+ years of experience in the VoIP domain. Bachelor's or Master's degree in computer science or equivalent. Solid knowledge of VoIP domain technologies, including SIP, SDP, RTP, RTCP. Solid knowledge of IP networking concepts, including L2/L3 routing, Subnets, VLANs,and NAT traversal. Solid knowledge of network impairments and their impact on call quality. Experience leading project teams to deliver critical software solutions. 6+ years of experience in building high-availability, scalable and fault-tolerant VoIP systems. 4+ years of experience in working with server-side VoIP applications like Asterisk, Kamailio or equivalent 3+ years of experience in working with a major cloud platform like AWS (preferred), GCP, or Azure. 2+ years of experience in the design and development of REST-based microservices. Experience in programming with one of Golang (preferred), Ruby, C/C++ Experience in scripting with shell and Python Experience with data stores such as MySQL, Postgres Good understanding of data structures, multi-threading and concurrency concepts. Proficiency in working in a Linux environment Experience working in Agile SDLC process Strong analytical, problem-solving and troubleshooting skills Excellent written and verbal communication skills Team player, flexible and able to work in a fast-paced environment A \"DevOps\" mindset. You own what you will develop. Good to Have Experience with custom development on Asterisk/Freeswitch/Kamailio/Opensips is a plus Experience with SIPp or any other SIP testing tools Experience with ISDN, WebRTC technologies Experience with Elastic Search queries and visualisation tools like Grafana, Kibana Experience with DevOps tools like Ansible, Jenkins, Terraform, Kubernetes, Git Experience with monitoring frameworks like Nagios, Prometheus Experience with developing Android, iOS-based VoIP clients Experience with Java, JavaScript languages Apply Apply with Linkedin Apply with Indeed Apply for this opening at ?apply=true Back to all openings See all the jobs at Exotel Techcom Pvt Ltd here: http://exotel.recruiterbox.com/jobs Fetching your Linkedin profile ... Application Form Apply with Linkedin Apply with Indeed First Name * Last Name Email * Phone * Resume * Current CTC * Expected CTC * Notice Period * Thanks for your time Apply for this opening Apply with Linkedin Apply with Indeed --> Share this opening with friends powered by Trakstar Hire",
-      "source": "Exotel Careers",
-      "jobType": "Full-time",
-      "tags": [],
-      "fitScore": 72,
-      "scoreBreakdown": {
-        "technical": 9,
-        "experience": 20,
-        "seniority": 8,
-        "domain": 15,
-        "location": 10,
-        "leadership": 10
-      },
-      "matchedSkills": [
-        "FreeSWITCH",
-        "Asterisk",
-        "SLA"
-      ],
-      "missingSkills": [],
-      "mustHavePass": true,
-      "id": "887051c3419b7d90d7fb",
-      "verified": true,
-      "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-26T00:17:30.318Z"
-    },
-    {
-      "title": "Product Support Engineer",
-      "company": "Exotel",
-      "location": "Bengaluru",
-      "workMode": "On-site/Hybrid",
-      "remote": false,
-      "posted": "",
-      "url": "https://exotel.hire.trakstar.com/jobs/fk0ziun/",
-      "description": "Product Support Engineer at Exotel Techcom Pvt Ltd exotel.in Website Back to all openings See all the jobs at Exotel Techcom Pvt Ltd here: http://exotel.recruiterbox.com/jobs Product Support Engineer Bengaluru , Karnataka , India | Growth | Full-time Apply with Linkedin Apply with Indeed Apply About the Role As a Product Support Engineer, you will be the first line of technical engagement for customers using Exotel’s cloud telephony, communication APIs, and customer engagement platform. Your role is critical in ensuring customers receive timely, accurate, and empathetic support while you help them troubleshoot issues, understand product behavior, and get the best out of Exotel’s solutions. This position is perfect for someone who enjoys diving into technical details, communicating clearly with customers, and collaborating with internal teams to improve overall customer satisfaction. Key Responsibilities Customer Issue Resolution 1 to 6 years of experience in serving as the primary contact for customers via email, phone, and ticketing systems for Level 1 inquiries. Diagnose issues related to call flows, APIs, SMS/voice routing, call recordings, and Exotel dashboard functionalities. Perform preliminary investigations such as log checks, configuration reviews, and environment validation. Provide clear, actionable solutions and workarounds within defined SLAs. Technical Troubleshooting Analyze API requests/responses, webhook logs, and common communication protocol issues. Assist customers with setup, configuration, debugging, and best practices. Escalate complex or platform-level problems to L2/L3 teams with complete technical context. Collaboration & Communication Coordinate with engineering, product for bug verification and feature clarifications. Document common issues, solutions, and internal runbooks for knowledge sharing. Contribute to improving support processes and customer experience. Quality & Compliance Ensure consistent adherence to SLA, quality standards, and communication guidelines. Maintain accurate records of issue tracking, escalations, and resolutions. Required Skills & Qualifications Technical Skills Solid understanding of APIs, JSON, webhooks, HTTP methods. Basic knowledge of networking concepts (DNS, latency, firewalls, ports). Exposure to cloud platforms and debugging tools like Postman, cURL, Kibana, or similar. Understanding of telephony or communication platforms is a bonus. Understanding of VSIP (Voice SIP) protocols, SIP call flows, and related troubleshooting. Soft Skills Excellent written and verbal communication. Strong analytical thinking with attention to detail. Ability to remain calm, structured, and solution-oriented under pressure. Customer-first attitude with empathy and clarity in problem-solving. Preferred Qualifications Experience supporting SaaS or communication-platform products. Familiarity with Exotel or similar platforms (Knowlarity, Twilio, Kaleyra, etc.). Ability to create knowledge-base articles or runbooks. What You Can Expect Hands-on learning across cloud communication systems, APIs, and telephony workflows. Opportunities to collaborate with product, engineering, and customer success teams. A fast-paced environment where your contribution directly impacts customer delight. Apply Apply with Linkedin Apply with Indeed Apply for this opening at ?apply=true Back to all openings See all the jobs at Exotel Techcom Pvt Ltd here: http://exotel.recruiterbox.com/jobs Fetching your Linkedin profile ... Application Form Apply with Linkedin Apply with Indeed First Name * Last Name Email * Phone * Resume * What is your current CTC? * What is your Expected CTC? * What is your notice period? * How many years of experience do you have with SAAS companies? * How many years of experience do you have in API Integrations? * Thanks for your time Apply for this opening Apply with Linkedin Apply with Indeed --> Share this opening with friends powered by Trakstar Hire",
-      "source": "Exotel Careers",
-      "jobType": "Full-time",
-      "tags": [],
-      "fitScore": 63,
-      "scoreBreakdown": {
-        "technical": 3,
-        "experience": 20,
-        "seniority": 8,
-        "domain": 12,
-        "location": 10,
-        "leadership": 10
-      },
-      "matchedSkills": [
-        "SLA"
-      ],
-      "missingSkills": [],
-      "mustHavePass": true,
-      "id": "1e1d248637210f35e134",
-      "verified": true,
-      "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-26T00:17:30.581Z"
-    },
-    {
-      "title": "Product Support Engineer (Bangalore)",
-      "company": "Exotel",
-      "location": "Bangalore",
-      "workMode": "On-site/Hybrid",
-      "remote": false,
-      "posted": "",
-      "url": "https://exotel.hire.trakstar.com/jobs/fk0zhai/",
-      "description": "Product Support Engineer (Bangalore) at Exotel Techcom Pvt Ltd exotel.in Website Back to all openings See all the jobs at Exotel Techcom Pvt Ltd here: http://exotel.recruiterbox.com/jobs Product Support Engineer (Bangalore) Bengaluru , Karnataka , India | Full-time Apply with Linkedin Apply with Indeed Apply About us Exotel is the emerging market’s leading full stack customer engagement platform and business-focused virtual telecom operator. Exotel has also recently received a virtual telecom operator licence to offer cost-effective end-to-end VoIP telephony services, making the company a 100% compliant cloud calling operator. Exotel was founded in 2011 and has an impressive cloud-based product suite that drives 70 million conversations every day for more than 6000 businesses in India, Southeast Asia, the Middle East, and Africa. Today, the omnichannel contact centre, communication API suite, and conversational AI platform from Exotel help some of the fastest-growing businesses in emerging countries manage their customer engagement. Some of the customers include MNC Group Indonesia, DHL Malaysia, Telekom Malaysia, Grab, Finmas, HDFC Bank, ICICI Bank, RBL, IDFC First bank, Swiggy, Zomato etc. Exotel has $50 million ARR and a $100 million Series D funding round. Exotel has won The ET StartUp Awards 2022 under the Comeback Kid category. Role expectations Installation and configuration of Linux & Packages. To troubleshoot L0, L1 and L2 issues associated with the product, which could not be resolved by the local IT team at the center. Knowledge of Telephony ( PRI and VOIP ) Experience in handling Call Centers. To resolve the client’s queries regarding product Setup or product Features or product Components. Engineers will be responsible for overall setup stability and maintenance of the Ameyo Setup at the center. To provide Training to the local IT or operations team if required. For monitoring the Ameyo Setup and ensuring smooth operations. Daily reporting about progress, non compliance. To understand the service requirement from the customer and pass the same to the backend team for further action. Engineer will be responsible for daily backup and cleanup operations and the same will need to be carried out by the local team Will coordinate with central NOC whenever required and for L3 issues to resolve the same Skills and Experience BE/ B.Tech / MCA Excellent analytical skills and high level of aptitude. 0-4 years of relevant work experience Linux knowledge - all commands. , Experience of Linux / Unix system configuration Knowledge of networking concepts like LAN Troubleshooting, WAN etc, Knowledge of Networking Devices like switches and routes and Network Architecture. Willingness to travel within India and Abroad. Willingness to learn and work in challenging environment Possess good interpersonal and communication skills Ability to work independently and as a team player Apply Apply with Linkedin Apply with Indeed Apply for this opening at ?apply=true Back to all openings See all the jobs at Exotel Techcom Pvt Ltd here: http://exotel.recruiterbox.com/jobs Fetching your Linkedin profile ... Application Form Apply with Linkedin Apply with Indeed First Name * Last Name Email * Phone * Resume * Notice Period? * Current Location? (Work Location - Bangalore - Hebbal - Hybrid) * Current Salary * Expected Salary * Are you willing to work in 24x7 shifts? * --Select-- Yes No Thanks for your time Apply for this opening Apply with Linkedin Apply with Indeed --> Share this opening with friends powered by Trakstar Hire",
-      "source": "Exotel Careers",
-      "jobType": "Full-time",
-      "tags": [],
-      "fitScore": 63,
-      "scoreBreakdown": {
-        "technical": 0,
-        "experience": 20,
-        "seniority": 8,
-        "domain": 15,
-        "location": 10,
-        "leadership": 10
-      },
-      "matchedSkills": [],
-      "missingSkills": [],
-      "mustHavePass": null,
-      "id": "9d1272a45c138eaaed38",
-      "verified": true,
-      "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-26T00:17:30.882Z"
     }
   ]
 }
