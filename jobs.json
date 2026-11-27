@@ -1,9 +1,9 @@
 {
   "meta": {
-    "lastRefreshed": "2026-11-27T01:56:16.655Z",
+    "lastRefreshed": "2026-11-27T10:29:03.380Z",
     "sourcesChecked": "Lever:Brillio, Ashby:Toku, Ashby:Interface.ai, Ashby:Sarvam, Exotel official careers (Trakstar), Arbeitnow, Arbeitnow, Arbeitnow, Remotive (6-hour cache)",
     "sourceErrors": [],
-    "listingCount": 13,
+    "listingCount": 15,
     "windowDays": 90,
     "locationRule": "Bengaluru office/hybrid/remote; outside Bengaluru fully remote India or worldwide only",
     "note": "Published by source API at collection time. Always open the original employer or job-board listing to confirm it remains accepting applications."
@@ -28,7 +28,7 @@
         "SLA"
       ],
       "posted": "",
-      "checkedAt": "2026-11-27T01:56:12.806Z",
+      "checkedAt": "2026-11-27T10:28:59.952Z",
       "fitScore": 64,
       "scoreBreakdown": {
         "technical": 3,
@@ -66,7 +66,7 @@
         "Webhooks"
       ],
       "posted": "",
-      "checkedAt": "2026-11-27T01:56:12.807Z",
+      "checkedAt": "2026-11-27T10:28:59.953Z",
       "fitScore": 59,
       "scoreBreakdown": {
         "technical": 3,
@@ -104,7 +104,7 @@
         "Project Management"
       ],
       "posted": "",
-      "checkedAt": "2026-11-27T01:56:12.807Z",
+      "checkedAt": "2026-11-27T10:28:59.953Z",
       "fitScore": 70,
       "scoreBreakdown": {
         "technical": 0,
@@ -145,7 +145,7 @@
         "Solution Architecture"
       ],
       "posted": "",
-      "checkedAt": "2026-11-27T01:56:12.807Z",
+      "checkedAt": "2026-11-27T10:28:59.953Z",
       "fitScore": 70,
       "scoreBreakdown": {
         "technical": 0,
@@ -187,7 +187,7 @@
         "IVR"
       ],
       "posted": "",
-      "checkedAt": "2026-11-27T01:56:12.808Z",
+      "checkedAt": "2026-11-27T10:28:59.953Z",
       "fitScore": 70,
       "scoreBreakdown": {
         "technical": 0,
@@ -226,7 +226,7 @@
         "Customer Success"
       ],
       "posted": "",
-      "checkedAt": "2026-11-27T01:56:12.808Z",
+      "checkedAt": "2026-11-27T10:28:59.953Z",
       "fitScore": 70,
       "scoreBreakdown": {
         "technical": 0,
@@ -242,6 +242,70 @@
       "id": "7c5fd27d6d7013ddc60f",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page"
+    },
+    {
+      "title": "Associate Technical PM /Technical Project Manager",
+      "company": "Exotel",
+      "location": "Bengaluru",
+      "workMode": "On-site/Hybrid",
+      "remote": false,
+      "posted": "",
+      "url": "https://exotel.hire.trakstar.com/jobs/fk0zdgu/",
+      "description": "Associate Technical PM /Technical Project Manager at Exotel Techcom Pvt Ltd exotel.in Website Back to all openings See all the jobs at Exotel Techcom Pvt Ltd here: http://exotel.recruiterbox.com/jobs Associate Technical PM /Technical Project Manager Bengaluru , Karnataka , India | Customer Operations | Full-time Apply with Linkedin Apply with Indeed Apply About Us Exotel is one of Asia's largest customer communication platforms. We are on a mission to move enterprise customer communication to the cloud. In 2020, we powered over 4 billion calls and connected over 320 million people. We work with some of the most innovative companies such as Ola, Swiggy, Zerodha, Whitehat Jr, Practo, Flipkart, GoJek, etc. We also power customer communication for some of the top banks in the country. Join us on this journey to improve how companies look at customer communication. Read our growth story here . Role summary You will own end-to-end delivery of enterprise Voicebot/Contact Centre projects—driving execution from kickoff to go-live and steady-state performance, across multiple systems and stakeholders. You’ll be the “single-threaded owner” for program plans, risks, dependencies, timelines, and customer communication—while partnering with FDEs for technical implementation and solutioning. A strong working knowledge of SIP is mandatory (SIP is the signalling protocol commonly used to initiate/modify/terminate VoIP sessions). Note: This is not an Engineering Manager role (no people management); it’s a delivery + customer outcomes TPM role working closely with FDEs and cross-functional engineering teams. Key responsibilities Program ownership & delivery execution Own project plans, milestones, RAID logs (Risks/Assumptions/Issues/Dependencies), and delivery governance for multiple concurrent customer deployments. Drive structured execution: kickoff → requirements/workshops → solutioning → integrations → UAT → production go-live → hypercare → handover. Customer-facing leadership Run customer-facing ceremonies (status calls, technical deep-dives, escalation calls), manage expectations, and keep stakeholders aligned on scope, timelines, and acceptance criteria. Travel to customer sites for workshops, cutovers, and escalations when needed. Solutioning + cross-system coordination Coordinate across customer IT/telephony vendors, contact centre teams, security teams, and Exotel engineering to deliver working end-to-end flows. Manage integration-heavy projects involving APIs, webhooks, CRMs, DBs, and contact center/telephony setups. Telephony/Contact Centre fundamentals Own technical readiness checklists for voice deployments (routing, transfers, DTMF, call recording requirements, latency constraints). Use your SIP knowledge to unblock issues quickly; SIP trunking/contact centre context is a bonus. InfoSec & compliance readiness Manage security/compliance workflows: vendor security questionnaires, data handling expectations, access control requirements, and approvals with customer security teams. Must-have qualifications 5–8 years of project/program management experience delivering customer-facing technical systems (SaaS/telecom/contact center/CCaaS preferred). Strong client-facing execution: crisp written updates, stakeholder management, escalation handling, negotiation on scope/timelines. Working knowledge of SIP (must) and comfort operating in telephony-style incident/debug environments. Ability to operate with ambiguity and bring structure (clear milestones, ownership, and decision logs). Solid technical aptitude (can understand logs, APIs, integrations, basic architecture) and partner effectively with engineers/FDEs. Familiarity with InfoSec processes in enterprise deals (security reviews, compliance artefacts, data flow review). Nice-to-haves Telco/Contact Centre domain experience (SIP trunking, PBX, ACD/IVR concepts, QoS/latency awareness). Experience delivering AI/Voicebot/Conversational AI systems. Exposure to tools like Jira/Linear, Confluence/Notion, Postman, basic SQL/log analytics. What success looks like (first 90 days) Independently run 1–2 key projects with predictable milestones and high customer confidence. Reduce go-live friction via stronger templates: kickoff checklist, UAT plan, cutover runbook, hypercare SOP. Improve delivery hygiene (risk management, scope control, cross-team alignment) across the FDE + engineering loop. Apply Apply with Linkedin Apply with Indeed Apply for this opening at ?apply=true Back to all openings See all the jobs at Exotel Techcom Pvt Ltd here: http://exotel.recruiterbox.com/jobs Fetching your Linkedin profile ... Application Form Apply with Linkedin Apply with Indeed First Name * Last Name Email * Phone * Resume * What is your current CTC? * What is your expected salary? * What is your notice period? * Thanks for your time Apply for this opening Apply with Linkedin Apply with Indeed --> Share this opening with friends powered by Trakstar Hire",
+      "source": "Exotel Careers",
+      "jobType": "Full-time",
+      "tags": [],
+      "fitScore": 76,
+      "scoreBreakdown": {
+        "technical": 6,
+        "experience": 20,
+        "seniority": 15,
+        "domain": 15,
+        "location": 10,
+        "leadership": 10
+      },
+      "matchedSkills": [
+        "SIP trunking",
+        "ACD/IVR"
+      ],
+      "missingSkills": [],
+      "mustHavePass": true,
+      "id": "6dc6c299fdf0ea7116b1",
+      "verified": true,
+      "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
+      "checkedAt": "2026-11-27T10:29:00.589Z"
+    },
+    {
+      "title": "Associate TPM /Technical Project Manager-(Chatbot Delivery)",
+      "company": "Exotel",
+      "location": "Bengaluru",
+      "workMode": "On-site/Hybrid",
+      "remote": false,
+      "posted": "",
+      "url": "https://exotel.hire.trakstar.com/jobs/fk0zcwm/",
+      "description": "Associate TPM /Technical Project Manager-(Chatbot Delivery) at Exotel Techcom Pvt Ltd exotel.in Website Back to all openings See all the jobs at Exotel Techcom Pvt Ltd here: http://exotel.recruiterbox.com/jobs Associate TPM /Technical Project Manager-(Chatbot Delivery) Bengaluru , Karnataka , India | Customer Operations | Full-time Apply with Linkedin Apply with Indeed Apply About Exotel Exotel is the emerging market's leading full-stack customer engagement platform and business-focused virtual telecom operator. Founded in 2011, our cloud platform powers over 50 million daily engagements across voice, video and messaging for 6,000+ companies in 60+ countries, including Ola, Swiggy, Flipkart, Zomato, HDFC Bank and Urban Company. We run three product lines: communication APIs (CPaaS), a modern omnichannel cloud contact center, and a conversational AI platform. Our chatbots and virtual assistants serve 8 of India's top 10 banks, and we are building agentic AI experiences with some of the country's largest consumer brands. Experience: 5–8 years Location: Bengaluru (Domlur), with customer-site travel as needed · About the Team The Chatbot Delivery team is part of Exotel's Conversational AI delivery organisation and focuses exclusively on enterprise chatbot and virtual-assistant deployments across WhatsApp, web, in-app chat and other messaging channels. The team takes each deployment from signed deal to stable production, and keeps it performing after go-live. Role Summary You will own end-to-end delivery of enterprise chatbot projects: kickoff, requirements, conversation design sign-off, integrations, UAT, go-live, hypercare and handover. You'll be the single-threaded owner for the plan, risks, dependencies, timelines and customer communication, working closely with conversation designers, bot developers/FDEs, product and engineering, and the customer's IT, digital and security teams. This is a delivery and customer-outcomes role, not an engineering-manager role. You won't build the bots yourself, but you need enough technical depth to understand how they work, spot problems early and unblock them. Key Responsibilities Program ownership & delivery execution Own project plans, milestones, RAID logs and delivery governance for multiple concurrent enterprise chatbot deployments. Drive structured execution: kickoff → discovery workshops → use-case and conversation-flow sign-off → integrations → UAT → go-live → hypercare → handover to support. Maintain delivery artefacts: project plan, decision log, action tracker, UAT plan, cutover/go-live runbook and status reports. Customer-facing leadership Be the primary point of contact for the customer: run status calls, steering reviews and escalation calls, and keep stakeholders aligned on scope, timelines and acceptance criteria. Translate business goals (deflection, self-service, lead capture, collections, servicing) into clear use cases, journeys and success metrics. Manage scope changes and change requests with clear impact assessment and trade-offs. Chatbot solutioning & integrations Coordinate the build of intents, flows, FAQs/knowledge bases and LLM/GenAI-powered experiences with conversation designers and bot developers. Manage integration-heavy projects: REST APIs, webhooks, CRMs, core banking/LOS/LMS systems, ticketing tools, authentication/OTP flows and live-agent handover to the contact center. Own channel readiness, including WhatsApp Business API onboarding (templates, opt-ins, number/display-name approvals), web widgets and in-app SDKs. Quality, go-live & post-launch performance Plan and run UAT with the customer, including test cases for happy paths, fallbacks, edge cases and multilingual journeys. Own go-live readiness and hypercare; triage production issues with engineering and drive them to closure. Track and improve bot performance after launch: containment/deflection rate, fallback rate, intent accuracy, drop-offs, CSAT and adoption. InfoSec & compliance readiness Drive security and compliance workflows with enterprise customers (especially BFSI): security questionnaires, data-flow diagrams, PII/data-handling and access-control requirements, and approvals. What We're Looking For Must-have 5–8 years of project/program management, delivering customer-facing technical systems (SaaS, conversational AI, CCaaS/CPaaS or enterprise software). Hands-on delivery of chatbot, virtual assistant or conversational AI projects for enterprise customers, owned through UAT → go-live → hypercare. Working understanding of how chatbots are built: intents/entities, NLU, dialogue flows, fallbacks, and knowledge-base or LLM/RAG-based answering. Solid technical aptitude: comfortable reading API documentation, request/response payloads and logs, and following basic solution architecture. Experience managing API/CRM integrations alongside engineering teams. Strong client-facing execution: crisp written updates, stakeholder management, escalation handling and negotiation on scope an",
+      "source": "Exotel Careers",
+      "jobType": "Full-time",
+      "tags": [],
+      "fitScore": 76,
+      "scoreBreakdown": {
+        "technical": 6,
+        "experience": 20,
+        "seniority": 15,
+        "domain": 15,
+        "location": 10,
+        "leadership": 10
+      },
+      "matchedSkills": [
+        "REST API",
+        "SLA"
+      ],
+      "missingSkills": [],
+      "mustHavePass": true,
+      "id": "717b0a2d6ea9e8b37d5d",
+      "verified": true,
+      "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
+      "checkedAt": "2026-11-27T10:29:00.818Z"
     },
     {
       "title": "Enterprise Customer Success Manager",
@@ -272,7 +336,7 @@
       "id": "28ce7e4f5cdf9cc97391",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-27T01:56:14.026Z"
+      "checkedAt": "2026-11-27T10:29:01.087Z"
     },
     {
       "title": "Head of Customer Success - India",
@@ -303,7 +367,7 @@
       "id": "e32d664605301ddcedc4",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-27T01:56:14.344Z"
+      "checkedAt": "2026-11-27T10:29:01.358Z"
     },
     {
       "title": "Implementation Engineer",
@@ -332,7 +396,7 @@
       "id": "945213215108c10c3cdc",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-27T01:56:14.655Z"
+      "checkedAt": "2026-11-27T10:29:01.605Z"
     },
     {
       "title": "Principal Engineer (Voice Platform)",
@@ -365,7 +429,7 @@
       "id": "ca65bbe3da5a608a6eb5",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-27T01:56:14.955Z"
+      "checkedAt": "2026-11-27T10:29:01.859Z"
     },
     {
       "title": "Principal Engineer (Voice4AI)",
@@ -398,7 +462,7 @@
       "id": "887051c3419b7d90d7fb",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-27T01:56:15.493Z"
+      "checkedAt": "2026-11-27T10:29:02.111Z"
     },
     {
       "title": "Product Support Engineer",
@@ -429,7 +493,7 @@
       "id": "1e1d248637210f35e134",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-27T01:56:15.763Z"
+      "checkedAt": "2026-11-27T10:29:02.368Z"
     },
     {
       "title": "Product Support Engineer (Bangalore)",
@@ -458,7 +522,7 @@
       "id": "9d1272a45c138eaaed38",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-27T01:56:16.022Z"
+      "checkedAt": "2026-11-27T10:29:02.594Z"
     }
   ]
 }

@@ -1662,10 +1662,26 @@
           "url": "https://exotel.hire.trakstar.com/jobs/fk0zhai/",
           "location": "Bangalore",
           "firstSeenAt": "2026-11-26T18:39:15.985Z"
+        },
+        {
+          "id": "6dc6c299fdf0ea7116b1",
+          "title": "Associate Technical PM /Technical Project Manager",
+          "company": "Exotel",
+          "url": "https://exotel.hire.trakstar.com/jobs/fk0zdgu/",
+          "location": "Bengaluru",
+          "firstSeenAt": "2026-11-27T10:29:03.379Z"
+        },
+        {
+          "id": "717b0a2d6ea9e8b37d5d",
+          "title": "Associate TPM /Technical Project Manager-(Chatbot Delivery)",
+          "company": "Exotel",
+          "url": "https://exotel.hire.trakstar.com/jobs/fk0zcwm/",
+          "location": "Bengaluru",
+          "firstSeenAt": "2026-11-27T10:29:03.379Z"
         }
       ],
-      "uniqueAvailable": 13,
-      "lastUpdatedAt": "2026-11-27T01:56:16.653Z"
+      "uniqueAvailable": 15,
+      "lastUpdatedAt": "2026-11-27T10:29:03.379Z"
     }
   }
 }
