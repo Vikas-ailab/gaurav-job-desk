@@ -1,9 +1,9 @@
 {
   "meta": {
-    "lastRefreshed": "2026-11-27T10:29:03.380Z",
+    "lastRefreshed": "2026-11-27T19:36:06.380Z",
     "sourcesChecked": "Lever:Brillio, Ashby:Toku, Ashby:Interface.ai, Ashby:Sarvam, Exotel official careers (Trakstar), Arbeitnow, Arbeitnow, Arbeitnow, Remotive (6-hour cache)",
     "sourceErrors": [],
-    "listingCount": 15,
+    "listingCount": 14,
     "windowDays": 90,
     "locationRule": "Bengaluru office/hybrid/remote; outside Bengaluru fully remote India or worldwide only",
     "note": "Published by source API at collection time. Always open the original employer or job-board listing to confirm it remains accepting applications."
@@ -28,7 +28,7 @@
         "SLA"
       ],
       "posted": "",
-      "checkedAt": "2026-11-27T10:28:59.952Z",
+      "checkedAt": "2026-11-27T19:36:02.727Z",
       "fitScore": 64,
       "scoreBreakdown": {
         "technical": 3,
@@ -66,7 +66,7 @@
         "Webhooks"
       ],
       "posted": "",
-      "checkedAt": "2026-11-27T10:28:59.953Z",
+      "checkedAt": "2026-11-27T19:36:02.728Z",
       "fitScore": 59,
       "scoreBreakdown": {
         "technical": 3,
@@ -104,7 +104,7 @@
         "Project Management"
       ],
       "posted": "",
-      "checkedAt": "2026-11-27T10:28:59.953Z",
+      "checkedAt": "2026-11-27T19:36:02.728Z",
       "fitScore": 70,
       "scoreBreakdown": {
         "technical": 0,
@@ -145,7 +145,7 @@
         "Solution Architecture"
       ],
       "posted": "",
-      "checkedAt": "2026-11-27T10:28:59.953Z",
+      "checkedAt": "2026-11-27T19:36:02.728Z",
       "fitScore": 70,
       "scoreBreakdown": {
         "technical": 0,
@@ -187,7 +187,7 @@
         "IVR"
       ],
       "posted": "",
-      "checkedAt": "2026-11-27T10:28:59.953Z",
+      "checkedAt": "2026-11-27T19:36:02.728Z",
       "fitScore": 70,
       "scoreBreakdown": {
         "technical": 0,
@@ -226,7 +226,7 @@
         "Customer Success"
       ],
       "posted": "",
-      "checkedAt": "2026-11-27T10:28:59.953Z",
+      "checkedAt": "2026-11-27T19:36:02.728Z",
       "fitScore": 70,
       "scoreBreakdown": {
         "technical": 0,
@@ -273,7 +273,7 @@
       "id": "6dc6c299fdf0ea7116b1",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-27T10:29:00.589Z"
+      "checkedAt": "2026-11-27T19:36:03.797Z"
     },
     {
       "title": "Associate TPM /Technical Project Manager-(Chatbot Delivery)",
@@ -305,7 +305,7 @@
       "id": "717b0a2d6ea9e8b37d5d",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-27T10:29:00.818Z"
+      "checkedAt": "2026-11-27T19:36:04.104Z"
     },
     {
       "title": "Enterprise Customer Success Manager",
@@ -336,7 +336,7 @@
       "id": "28ce7e4f5cdf9cc97391",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-27T10:29:01.087Z"
+      "checkedAt": "2026-11-27T19:36:04.438Z"
     },
     {
       "title": "Head of Customer Success - India",
@@ -367,7 +367,7 @@
       "id": "e32d664605301ddcedc4",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-27T10:29:01.358Z"
+      "checkedAt": "2026-11-27T19:36:04.750Z"
     },
     {
       "title": "Implementation Engineer",
@@ -396,7 +396,7 @@
       "id": "945213215108c10c3cdc",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-27T10:29:01.605Z"
+      "checkedAt": "2026-11-27T19:36:05.067Z"
     },
     {
       "title": "Principal Engineer (Voice Platform)",
@@ -429,7 +429,7 @@
       "id": "ca65bbe3da5a608a6eb5",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-27T10:29:01.859Z"
+      "checkedAt": "2026-11-27T19:36:05.327Z"
     },
     {
       "title": "Principal Engineer (Voice4AI)",
@@ -462,7 +462,7 @@
       "id": "887051c3419b7d90d7fb",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-27T10:29:02.111Z"
+      "checkedAt": "2026-11-27T19:36:05.653Z"
     },
     {
       "title": "Product Support Engineer",
@@ -493,36 +493,7 @@
       "id": "1e1d248637210f35e134",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-27T10:29:02.368Z"
-    },
-    {
-      "title": "Product Support Engineer (Bangalore)",
-      "company": "Exotel",
-      "location": "Bangalore",
-      "workMode": "On-site/Hybrid",
-      "remote": false,
-      "posted": "",
-      "url": "https://exotel.hire.trakstar.com/jobs/fk0zhai/",
-      "description": "Product Support Engineer (Bangalore) at Exotel Techcom Pvt Ltd exotel.in Website Back to all openings See all the jobs at Exotel Techcom Pvt Ltd here: http://exotel.recruiterbox.com/jobs Product Support Engineer (Bangalore) Bengaluru , Karnataka , India | Full-time Apply with Linkedin Apply with Indeed Apply About us Exotel is the emerging market’s leading full stack customer engagement platform and business-focused virtual telecom operator. Exotel has also recently received a virtual telecom operator licence to offer cost-effective end-to-end VoIP telephony services, making the company a 100% compliant cloud calling operator. Exotel was founded in 2011 and has an impressive cloud-based product suite that drives 70 million conversations every day for more than 6000 businesses in India, Southeast Asia, the Middle East, and Africa. Today, the omnichannel contact centre, communication API suite, and conversational AI platform from Exotel help some of the fastest-growing businesses in emerging countries manage their customer engagement. Some of the customers include MNC Group Indonesia, DHL Malaysia, Telekom Malaysia, Grab, Finmas, HDFC Bank, ICICI Bank, RBL, IDFC First bank, Swiggy, Zomato etc. Exotel has $50 million ARR and a $100 million Series D funding round. Exotel has won The ET StartUp Awards 2022 under the Comeback Kid category. Role expectations Installation and configuration of Linux & Packages. To troubleshoot L0, L1 and L2 issues associated with the product, which could not be resolved by the local IT team at the center. Knowledge of Telephony ( PRI and VOIP ) Experience in handling Call Centers. To resolve the client’s queries regarding product Setup or product Features or product Components. Engineers will be responsible for overall setup stability and maintenance of the Ameyo Setup at the center. To provide Training to the local IT or operations team if required. For monitoring the Ameyo Setup and ensuring smooth operations. Daily reporting about progress, non compliance. To understand the service requirement from the customer and pass the same to the backend team for further action. Engineer will be responsible for daily backup and cleanup operations and the same will need to be carried out by the local team Will coordinate with central NOC whenever required and for L3 issues to resolve the same Skills and Experience BE/ B.Tech / MCA Excellent analytical skills and high level of aptitude. 0-4 years of relevant work experience Linux knowledge - all commands. , Experience of Linux / Unix system configuration Knowledge of networking concepts like LAN Troubleshooting, WAN etc, Knowledge of Networking Devices like switches and routes and Network Architecture. Willingness to travel within India and Abroad. Willingness to learn and work in challenging environment Possess good interpersonal and communication skills Ability to work independently and as a team player Apply Apply with Linkedin Apply with Indeed Apply for this opening at ?apply=true Back to all openings See all the jobs at Exotel Techcom Pvt Ltd here: http://exotel.recruiterbox.com/jobs Fetching your Linkedin profile ... Application Form Apply with Linkedin Apply with Indeed First Name * Last Name Email * Phone * Resume * Notice Period? * Current Location? (Work Location - Bangalore - Hebbal - Hybrid) * Current Salary * Expected Salary * Are you willing to work in 24x7 shifts? * --Select-- Yes No Thanks for your time Apply for this opening Apply with Linkedin Apply with Indeed --> Share this opening with friends powered by Trakstar Hire",
-      "source": "Exotel Careers",
-      "jobType": "Full-time",
-      "tags": [],
-      "fitScore": 63,
-      "scoreBreakdown": {
-        "technical": 0,
-        "experience": 20,
-        "seniority": 8,
-        "domain": 15,
-        "location": 10,
-        "leadership": 10
-      },
-      "matchedSkills": [],
-      "missingSkills": [],
-      "mustHavePass": null,
-      "id": "9d1272a45c138eaaed38",
-      "verified": true,
-      "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-27T10:29:02.594Z"
+      "checkedAt": "2026-11-27T19:36:05.926Z"
     }
   ]
 }
