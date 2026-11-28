@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastRefreshed": "2026-11-27T19:36:06.380Z",
+    "lastRefreshed": "2026-11-28T02:10:30.072Z",
     "sourcesChecked": "Lever:Brillio, Ashby:Toku, Ashby:Interface.ai, Ashby:Sarvam, Exotel official careers (Trakstar), Arbeitnow, Arbeitnow, Arbeitnow, Remotive (6-hour cache)",
     "sourceErrors": [],
     "listingCount": 14,
@@ -28,7 +28,7 @@
         "SLA"
       ],
       "posted": "",
-      "checkedAt": "2026-11-27T19:36:02.727Z",
+      "checkedAt": "2026-11-28T02:10:26.979Z",
       "fitScore": 64,
       "scoreBreakdown": {
         "technical": 3,
@@ -66,7 +66,7 @@
         "Webhooks"
       ],
       "posted": "",
-      "checkedAt": "2026-11-27T19:36:02.728Z",
+      "checkedAt": "2026-11-28T02:10:26.979Z",
       "fitScore": 59,
       "scoreBreakdown": {
         "technical": 3,
@@ -104,7 +104,7 @@
         "Project Management"
       ],
       "posted": "",
-      "checkedAt": "2026-11-27T19:36:02.728Z",
+      "checkedAt": "2026-11-28T02:10:26.979Z",
       "fitScore": 70,
       "scoreBreakdown": {
         "technical": 0,
@@ -145,7 +145,7 @@
         "Solution Architecture"
       ],
       "posted": "",
-      "checkedAt": "2026-11-27T19:36:02.728Z",
+      "checkedAt": "2026-11-28T02:10:26.979Z",
       "fitScore": 70,
       "scoreBreakdown": {
         "technical": 0,
@@ -187,7 +187,7 @@
         "IVR"
       ],
       "posted": "",
-      "checkedAt": "2026-11-27T19:36:02.728Z",
+      "checkedAt": "2026-11-28T02:10:26.979Z",
       "fitScore": 70,
       "scoreBreakdown": {
         "technical": 0,
@@ -226,7 +226,7 @@
         "Customer Success"
       ],
       "posted": "",
-      "checkedAt": "2026-11-27T19:36:02.728Z",
+      "checkedAt": "2026-11-28T02:10:26.979Z",
       "fitScore": 70,
       "scoreBreakdown": {
         "technical": 0,
@@ -273,7 +273,7 @@
       "id": "6dc6c299fdf0ea7116b1",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-27T19:36:03.797Z"
+      "checkedAt": "2026-11-28T02:10:27.555Z"
     },
     {
       "title": "Associate TPM /Technical Project Manager-(Chatbot Delivery)",
@@ -305,7 +305,7 @@
       "id": "717b0a2d6ea9e8b37d5d",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-27T19:36:04.104Z"
+      "checkedAt": "2026-11-28T02:10:27.946Z"
     },
     {
       "title": "Enterprise Customer Success Manager",
@@ -336,7 +336,7 @@
       "id": "28ce7e4f5cdf9cc97391",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-27T19:36:04.438Z"
+      "checkedAt": "2026-11-28T02:10:28.156Z"
     },
     {
       "title": "Head of Customer Success - India",
@@ -367,7 +367,7 @@
       "id": "e32d664605301ddcedc4",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-27T19:36:04.750Z"
+      "checkedAt": "2026-11-28T02:10:28.425Z"
     },
     {
       "title": "Implementation Engineer",
@@ -396,7 +396,7 @@
       "id": "945213215108c10c3cdc",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-27T19:36:05.067Z"
+      "checkedAt": "2026-11-28T02:10:28.637Z"
     },
     {
       "title": "Principal Engineer (Voice Platform)",
@@ -429,7 +429,7 @@
       "id": "ca65bbe3da5a608a6eb5",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-27T19:36:05.327Z"
+      "checkedAt": "2026-11-28T02:10:28.892Z"
     },
     {
       "title": "Principal Engineer (Voice4AI)",
@@ -462,7 +462,7 @@
       "id": "887051c3419b7d90d7fb",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-27T19:36:05.653Z"
+      "checkedAt": "2026-11-28T02:10:29.228Z"
     },
     {
       "title": "Product Support Engineer",
@@ -493,7 +493,7 @@
       "id": "1e1d248637210f35e134",
       "verified": true,
       "verification": "Returned as a published listing by the source API; confirm the vacancy on the employer page",
-      "checkedAt": "2026-11-27T19:36:05.926Z"
+      "checkedAt": "2026-11-28T02:10:29.488Z"
     }
   ]
 }
